@@ -55,6 +55,39 @@ function LandingPage({ onAnalyze, loading }) {
           </div>
         ))}
       </div>
+
+      <div className="value-prop-banner animate-slide-up" style={{ animationDelay: '0.8s' }}>
+        <p>
+          "Your GitHub is full of silent repositories. Recruiters don’t have time to read your code. 
+          GPA translates your raw commits into a deterministic, recruiter-ready engineering grade."
+        </p>
+      </div>
+
+      <h2 className="section-title animate-slide-up" style={{ animationDelay: '0.9s' }}>How It Works</h2>
+      
+      <div className="steps-container animate-slide-up" style={{ animationDelay: '1.0s' }}>
+        <div className="step-card">
+          <div className="step-number">1</div>
+          <h3>Link Profile</h3>
+          <p>Enter your public GitHub username to initiate the scan.</p>
+        </div>
+        <div className="step-card">
+          <div className="step-number">2</div>
+          <h3>Engine Analysis</h3>
+          <p>Our algorithm analyzes commits, structure, and technical debt.</p>
+        </div>
+        <div className="step-card">
+          <div className="step-number">3</div>
+          <h3>Get Verdict</h3>
+          <p>Receive a Staff-level technical audit and revival plans.</p>
+        </div>
+      </div>
+
+      <footer className="landing-footer animate-slide-up" style={{ animationDelay: '1.2s' }}>
+        <p>© {new Date().getFullYear()} GitHub Portfolio Analyzer.</p>
+        <p>Developed for the HackXtreme Challenge by <a href="https://github.com/Zeelkundariya" target="_blank" rel="noreferrer">Zeel Kundariya</a></p>
+      </footer>
+
     </div>
   );
 }
