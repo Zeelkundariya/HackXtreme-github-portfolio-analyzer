@@ -794,4 +794,91 @@ h4 {
   font-size: 0.95rem;
   margin: 0;
   line-height: 1.5;
-}
+}
+
+/* --- Advanced Animations --- */
+
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  opacity: 0;
+  animation: slideUpFade 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 0 0 rgba(47, 129, 247, 0.4); }
+  70% { box-shadow: 0 0 0 15px rgba(47, 129, 247, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(47, 129, 247, 0); }
+}
+
+.pulse-container {
+  position: relative;
+  border-radius: 16px;
+  animation: pulseGlow 2.5s infinite;
+  transition: all 0.3s ease;
+}
+
+.pulse-container:hover {
+  animation: none;
+  box-shadow: 0 0 20px rgba(47, 129, 247, 0.6);
+}
+
+@keyframes gradientPan {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.gradient-text-animated {
+  background: linear-gradient(270deg, #2f81f7, #bc8cff, #2f81f7);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  animation: gradientPan 4s ease infinite;
+}
+
+/* Enhanced Hover on Feature Cards */
+.feature-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  border-color: rgba(47, 129, 247, 0.5);
+  box-shadow: 0 15px 35px rgba(47, 129, 247, 0.15), 0 0 15px rgba(188, 140, 255, 0.1);
+}
+
+.feature-card:hover .feature-icon-wrapper {
+  background: rgba(47, 129, 247, 0.2);
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(47, 129, 247, 0.4);
+}
+
+.feature-icon-wrapper {
+  background: rgba(47, 129, 247, 0.1);
+  color: var(--accent-color);
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
