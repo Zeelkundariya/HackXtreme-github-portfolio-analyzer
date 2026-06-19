@@ -39,6 +39,11 @@ function LandingPage({ onAnalyze, loading }) {
   return (
     <div className="landing-page">
       <div className="landing-hero animate-slide-up" style={{ animationDelay: '0.1s' }}>
+        <div className="social-proof-badge animate-slide-up" style={{ animationDelay: '0.05s' }}>
+          <span className="mockup-dot green" style={{ width: '8px', height: '8px' }}></span>
+          Over 5,000+ developers analyzed this week
+        </div>
+        <br/>
         <div className="animate-float" style={{ display: 'inline-block', marginBottom: '1rem', color: 'var(--accent-color)', background: 'rgba(47, 129, 247, 0.1)', padding: '16px', borderRadius: '50%' }}>
           <CpuIcon size={48} />
         </div>
@@ -51,6 +56,85 @@ function LandingPage({ onAnalyze, loading }) {
       <div className="animate-slide-up" style={{ animationDelay: '0.3s', width: '100%', maxWidth: '800px', zIndex: 10 }}>
         <div className="pulse-container">
           <InputCard onAnalyze={onAnalyze} loading={loading} />
+        </div>
+      </div>
+
+      <div className="mockup-window animate-slide-up" style={{ animationDelay: '0.4s' }}>
+        <div className="mockup-header">
+          <div className="mockup-dot red"></div>
+          <div className="mockup-dot yellow"></div>
+          <div className="mockup-dot green"></div>
+        </div>
+        <div className="mockup-body">
+          <div style={{ textAlign: 'center', width: '100%' }}>
+             <h3 style={{ color: 'var(--text-secondary)', marginBottom: '30px' }}>Dashboard Preview</h3>
+             <div style={{ display: 'flex', gap: '20px', justifyContent: 'center', opacity: 0.8 }}>
+               <div style={{ background: 'rgba(47, 129, 247, 0.1)', border: '1px solid var(--accent-color)', borderRadius: '8px', padding: '20px', flex: 1, height: '150px' }}></div>
+               <div style={{ background: 'rgba(47, 129, 247, 0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', padding: '20px', flex: 2, height: '150px' }}></div>
+             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="deep-dive-section animate-slide-up" style={{ animationDelay: '0.5s' }}>
+        <div className="deep-dive-content">
+          <h2>The Revival Engine</h2>
+          <p>
+            Stop letting your best code gather dust. Our AI-driven Revival Engine automatically detects high-potential but stale repositories in your portfolio. 
+            It then generates a high-fidelity refactor plan to upgrade dependencies, modernize the architecture, and transform it into a recruiter-ready asset.
+          </p>
+        </div>
+        <div className="deep-dive-visual">
+          <RocketIcon size={120} style={{ color: 'rgba(47, 129, 247, 0.2)' }} className="animate-float" />
+        </div>
+      </div>
+
+      <div className="deep-dive-section reverse animate-slide-up" style={{ animationDelay: '0.6s' }}>
+        <div className="deep-dive-content">
+          <h2>Recruiter Simulator</h2>
+          <p>
+            Wondering what a CTO sees when they look at your code? The Recruiter Simulator runs a rigorous, AI-led technical deep-dive on your profile.
+            Get actionable feedback on your commit discipline, architectural depth, and open-source impact before you ever step into an interview.
+          </p>
+        </div>
+        <div className="deep-dive-visual">
+          <SearchIcon size={120} style={{ color: 'rgba(188, 140, 255, 0.2)' }} className="animate-float" />
+        </div>
+      </div>
+
+      <h2 className="section-title animate-slide-up" style={{ animationDelay: '0.7s', marginBottom: '10px' }}>Wall of Love</h2>
+      <p style={{ textAlign: 'center', color: 'var(--text-secondary)', marginBottom: '40px' }} className="animate-slide-up">See what top engineers are saying about GPA.</p>
+      
+      <div className="testimonials-grid animate-slide-up" style={{ animationDelay: '0.8s' }}>
+        <div className="testimonial-card">
+          <p>GPA finally gives me a way to prove my architectural skills without forcing recruiters to read 10,000 lines of code. The Engineering Authority score is incredibly accurate.</p>
+          <div className="testimonial-author">
+            <div className="author-avatar"></div>
+            <div className="author-info">
+              <h5>Sarah Jenkins</h5>
+              <span>Staff Engineer @ TechCorp</span>
+            </div>
+          </div>
+        </div>
+        <div className="testimonial-card">
+          <p>The Revival Engine alone is worth it. It found a 3-year-old React project of mine and generated a plan to modernize it to Next.js in minutes. Incredible.</p>
+          <div className="testimonial-author">
+            <div className="author-avatar"></div>
+            <div className="author-info">
+              <h5>David Chen</h5>
+              <span>Senior Frontend Developer</span>
+            </div>
+          </div>
+        </div>
+        <div className="testimonial-card">
+          <p>As a hiring manager, this tool is a cheat code. The Shadow Profile tells me more about a candidate's actual engineering level than a 45-minute technical screen.</p>
+          <div className="testimonial-author">
+            <div className="author-avatar"></div>
+            <div className="author-info">
+              <h5>Elena Rodriguez</h5>
+              <span>VP of Engineering</span>
+            </div>
+          </div>
         </div>
       </div>
 
