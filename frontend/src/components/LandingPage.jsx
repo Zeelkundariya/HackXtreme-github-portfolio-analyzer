@@ -68,9 +68,41 @@ function LandingPage({ onAnalyze, loading }) {
         <div className="mockup-body">
           <div style={{ textAlign: 'center', width: '100%' }}>
              <h3 style={{ color: 'var(--text-secondary)', marginBottom: '30px' }}>Dashboard Preview</h3>
-             <div style={{ display: 'flex', gap: '20px', justifyContent: 'center', opacity: 0.8 }}>
-               <div style={{ background: 'rgba(47, 129, 247, 0.1)', border: '1px solid var(--accent-color)', borderRadius: '8px', padding: '20px', flex: 1, height: '150px' }}></div>
-               <div style={{ background: 'rgba(47, 129, 247, 0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', padding: '20px', flex: 2, height: '150px' }}></div>
+             <div style={{ display: 'flex', gap: '20px', justifyContent: 'center', opacity: 0.9, textAlign: 'left' }}>
+               {/* Left Panel: Score Card */}
+               <div style={{ background: 'rgba(13, 17, 23, 0.8)', border: '1px solid var(--glass-border)', borderRadius: '12px', padding: '24px', flex: 1, height: '200px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                  <div style={{ fontSize: '3.5rem', fontWeight: 800, color: 'var(--accent-color)', textShadow: '0 0 20px rgba(47,129,247,0.5)', lineHeight: 1 }}>87<span style={{fontSize:'1.5rem', color:'var(--text-secondary)'}}>/100</span></div>
+                  <div style={{ color: '#fff', fontWeight: 600, marginTop: '12px' }}>Engineering Authority</div>
+                  <div style={{ color: 'var(--success-color)', fontSize: '0.85rem', marginTop: '4px' }}>Top 5% of Developers</div>
+               </div>
+
+               {/* Right Panel: Heatmap/Stats */}
+               <div style={{ background: 'rgba(13, 17, 23, 0.8)', border: '1px solid var(--glass-border)', borderRadius: '12px', padding: '24px', flex: 2, height: '200px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                  <div style={{ color: '#fff', fontWeight: 600, marginBottom: '12px' }}>Impact Heatmap</div>
+                  
+                  {/* Fake Heatmap Grid */}
+                  <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
+                    {Array.from({length: 42}).map((_, i) => (
+                      <div key={i} style={{ width: '14px', height: '14px', borderRadius: '3px', background: Math.random() > 0.7 ? 'var(--accent-color)' : (Math.random() > 0.4 ? 'rgba(47,129,247,0.4)' : 'rgba(255,255,255,0.05)') }}></div>
+                    ))}
+                  </div>
+
+                  {/* Fake Stats */}
+                  <div style={{ display: 'flex', gap: '30px', marginTop: '16px' }}>
+                    <div>
+                      <div style={{ fontSize: '1.4rem', color: '#fff', fontWeight: 700 }}>1,248</div>
+                      <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Commits Analysed</div>
+                    </div>
+                    <div>
+                      <div style={{ fontSize: '1.4rem', color: '#fff', fontWeight: 700 }}>React, Node</div>
+                      <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Core Stack</div>
+                    </div>
+                    <div>
+                      <div style={{ fontSize: '1.4rem', color: '#fff', fontWeight: 700 }}>A+</div>
+                      <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Architecture</div>
+                    </div>
+                  </div>
+               </div>
              </div>
           </div>
         </div>
@@ -102,41 +134,6 @@ function LandingPage({ onAnalyze, loading }) {
         </div>
       </div>
 
-      <h2 className="section-title animate-slide-up" style={{ animationDelay: '0.7s', marginBottom: '10px' }}>Wall of Love</h2>
-      <p style={{ textAlign: 'center', color: 'var(--text-secondary)', marginBottom: '40px' }} className="animate-slide-up">See what top engineers are saying about GPA.</p>
-      
-      <div className="testimonials-grid animate-slide-up" style={{ animationDelay: '0.8s' }}>
-        <div className="testimonial-card">
-          <p>GPA finally gives me a way to prove my architectural skills without forcing recruiters to read 10,000 lines of code. The Engineering Authority score is incredibly accurate.</p>
-          <div className="testimonial-author">
-            <div className="author-avatar"></div>
-            <div className="author-info">
-              <h5>Sarah Jenkins</h5>
-              <span>Staff Engineer @ TechCorp</span>
-            </div>
-          </div>
-        </div>
-        <div className="testimonial-card">
-          <p>The Revival Engine alone is worth it. It found a 3-year-old React project of mine and generated a plan to modernize it to Next.js in minutes. Incredible.</p>
-          <div className="testimonial-author">
-            <div className="author-avatar"></div>
-            <div className="author-info">
-              <h5>David Chen</h5>
-              <span>Senior Frontend Developer</span>
-            </div>
-          </div>
-        </div>
-        <div className="testimonial-card">
-          <p>As a hiring manager, this tool is a cheat code. The Shadow Profile tells me more about a candidate's actual engineering level than a 45-minute technical screen.</p>
-          <div className="testimonial-author">
-            <div className="author-avatar"></div>
-            <div className="author-info">
-              <h5>Elena Rodriguez</h5>
-              <span>VP of Engineering</span>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <div className="features-grid">
         {features.map((feature, index) => (
