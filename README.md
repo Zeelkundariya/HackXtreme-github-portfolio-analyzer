@@ -1,5 +1,7 @@
 # 🚀 GitHub Portfolio Analyzer (v10.1-REAL)
 
+**Live Backend API**: [https://github-portfolio-analyzer-50c5.onrender.com](https://github-portfolio-analyzer-50c5.onrender.com)
+
 
 > **"Your GitHub profile is your new resume. Don't let it be a ghost town."**
 
