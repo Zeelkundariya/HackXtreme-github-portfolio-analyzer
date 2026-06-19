@@ -7,6 +7,7 @@ import VisualMap from "./components/VisualMap";
 import ShadowProfile from "./components/ShadowProfile";
 import RevivalEngine from "./components/RevivalEngine";
 import ImpactHeatmap from "./components/ImpactHeatmap";
+import LandingPage from "./components/LandingPage";
 import { API_BASE_URL } from "./config";
 import {
   GraphIcon,
@@ -59,40 +60,45 @@ function App() {
   return (
     <div className="app-container">
       <div className="bg-glow"></div>
-      <header style={{ textAlign: "center", marginBottom: 60, marginTop: 20 }}>
-        <h1 className="hero-title animate-fade-in">GitHub Portfolio Analyzer</h1>
-        <p className="hero-subtitle animate-fade-in" style={{ animationDelay: '0.1s' }}>
-          Deconstruct your engineering DNA. Turn silent repositories into <span className="gradient-text">Recruiter-Ready Proof</span>.
-        </p>
-      </header>
 
-      <InputCard onAnalyze={analyze} loading={loading} />
+      {!data ? (
+        <>
+          <LandingPage onAnalyze={analyze} loading={loading} />
 
-      {error && (
-        <div className="card animate-fade-in" style={{
-          borderColor: "var(--error-color)",
-          color: "var(--error-color)",
-          background: "rgba(248, 81, 73, 0.1)",
-          display: 'flex',
-          alignItems: 'center',
-          gap: '10px'
-        }}>
-          <AlertIcon size={20} /> {error}
-        </div>
-      )}
+          {error && (
+            <div className="card animate-fade-in" style={{
+              borderColor: "var(--error-color)",
+              color: "var(--error-color)",
+              background: "rgba(248, 81, 73, 0.1)",
+              display: 'flex',
+              alignItems: 'center',
+              gap: '10px',
+              maxWidth: '800px',
+              margin: '0 auto 20px auto'
+            }}>
+              <AlertIcon size={20} /> {error}
+            </div>
+          )}
 
-      {loading && (
-        <div style={{ textAlign: "center", marginTop: 40, color: "var(--text-secondary)" }}>
-          <div className="loading-spinner" style={{
-            width: 40, height: 40, border: "4px solid var(--border-color)", borderTopColor: "#58a6ff", borderRadius: "50%", margin: "0 auto 20px", animation: "spin 1s linear infinite"
-          }}></div>
-          <p>Analyzing profile... Recruiter bots are scanning 🔎</p>
-          <style>{`@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }`}</style>
-        </div>
-      )}
+          {loading && (
+            <div style={{ textAlign: "center", marginTop: 40, color: "var(--text-secondary)" }}>
+              <div className="loading-spinner" style={{
+                width: 40, height: 40, border: "4px solid var(--border-color)", borderTopColor: "#58a6ff", borderRadius: "50%", margin: "0 auto 20px", animation: "spin 1s linear infinite"
+              }}></div>
+              <p>Analyzing profile... Recruiter bots are scanning 🔎</p>
+              <style>{`@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }`}</style>
+            </div>
+          )}
+        </>
+      ) : (
+        <div className="animate-fade-in" style={{ marginTop: '20px' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
+            <h2 className="hero-title" style={{ fontSize: '2rem', margin: 0, cursor: 'pointer' }} onClick={() => setData(null)}>GPA.</h2>
+            <button onClick={() => {setData(null); setError(null);}} className="btn-primary" style={{ padding: '8px 16px', fontSize: '14px' }}>
+              Analyze Another
+            </button>
+          </div>
 
-      {data && (
-        <div className="animate-fade-in" style={{ animationDelay: '0.2s', marginTop: '20px' }}>
           <nav style={{
             display: 'flex',
             flexWrap: 'wrap',
