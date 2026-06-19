@@ -1,6 +1,6 @@
 import React from 'react';
 import InputCard from "./InputCard";
-import { GraphIcon, SearchIcon, RocketIcon, FlameIcon, CpuIcon } from "@primer/octicons-react";
+import { GraphIcon, SearchIcon, RocketIcon, FlameIcon, CpuIcon, RepoIcon, PulseIcon } from "@primer/octicons-react";
 
 function LandingPage({ onAnalyze, loading }) {
   const features = [
@@ -13,6 +13,16 @@ function LandingPage({ onAnalyze, loading }) {
       title: "Recruiter Simulator",
       description: "Interactive, AI-led technical deep-dives. Simulate a CTO audit based on your real repository telemetry.",
       icon: SearchIcon
+    },
+    {
+      title: "Architectural X-Ray",
+      description: "Visual tree mapping of repository structures to detect project organization levels and complexity.",
+      icon: RepoIcon
+    },
+    {
+      title: "Shadow Profile",
+      description: "AI-driven gap analysis benchmarking your profile against Big Tech Staff-level engineering standards.",
+      icon: PulseIcon
     },
     {
       title: "Revival Engine",
