@@ -93,7 +93,54 @@ function LandingPage({ onAnalyze, loading }) {
         </div>
       </div>
 
-      <footer className="landing-footer animate-slide-up" style={{ animationDelay: '1.2s' }}>
+      <div className="narrative-section animate-slide-up" style={{ animationDelay: '1.0s' }}>
+        <div className="narrative-block problem-text">
+          <h3>The Problem</h3>
+          <p>
+            Recruiters spend an average of <strong>6 seconds</strong> scanning a resume. They don't have time to clone your repositories, 
+            run your code locally, or read through your commit history. If your GitHub isn't instantly parseable and professional, 
+            your best engineering work remains invisible.
+          </p>
+        </div>
+        <div className="narrative-block solution-text">
+          <h3>The Solution</h3>
+          <p>
+            GPA instantly translates thousands of your commits into a deterministic, Staff-level engineering grade. 
+            We turn your raw repositories into recruiter-ready proof, highlighting your architectural depth and engineering velocity.
+          </p>
+        </div>
+      </div>
+
+      <h2 className="section-title animate-slide-up" style={{ animationDelay: '1.1s' }}>Frequently Asked Questions</h2>
+      
+      <div className="faq-grid animate-slide-up" style={{ animationDelay: '1.2s' }}>
+        <div className="faq-card">
+          <h4>How is the Authority Score calculated?</h4>
+          <p>Our deterministic algorithm weights original work, architectural complexity (file tree depth), community impact (stars/forks), and commit discipline.</p>
+        </div>
+        <div className="faq-card">
+          <h4>Does GPA store my code?</h4>
+          <p>No. We only analyze public metadata via the GitHub API. We do not clone, store, or read your actual private source code.</p>
+        </div>
+        <div className="faq-card">
+          <h4>What is the 'Shadow Profile'?</h4>
+          <p>An AI-driven gap analysis that compares your current public profile against the common patterns seen in Big Tech Staff-level engineers.</p>
+        </div>
+        <div className="faq-card">
+          <h4>How do Revival Plans work?</h4>
+          <p>The engine detects "stale" but high-potential repositories and generates a high-fidelity refactor plan to turn them into portfolio-grade assets.</p>
+        </div>
+      </div>
+
+      <div className="cta-banner animate-slide-up" style={{ animationDelay: '1.3s' }}>
+        <h2>Ready to deconstruct your DNA?</h2>
+        <p>Stop letting your best code gather dust. Get your technical audit now.</p>
+        <div className="pulse-container" style={{ display: 'inline-block', width: '100%', maxWidth: '600px' }}>
+          <InputCard onAnalyze={onAnalyze} loading={loading} />
+        </div>
+      </div>
+
+      <footer className="landing-footer animate-slide-up" style={{ animationDelay: '1.4s' }}>
         <p>© {new Date().getFullYear()} GitHub Portfolio Analyzer.</p>
         <p>Developed for the HackXtreme Challenge by <a href="https://github.com/Zeelkundariya" target="_blank" rel="noreferrer">Zeel Kundariya</a></p>
       </footer>
