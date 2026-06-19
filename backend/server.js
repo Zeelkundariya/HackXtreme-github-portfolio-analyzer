@@ -7,9 +7,9 @@ import { initDB, saveScore, getHistory } from './database.js';
 import { fetchUser, fetchRepos, fetchEvents, fetchTotalContributions, fetchRepoTree } from './githubService.js';
 
 dotenv.config();
-
 const app = express();
-const PORT = 5001;
+const PORT = process.env.PORT || 5001;
+
 console.log(`[BOOT] INITIALIZING HIGH-FIDELITY ENGINE v10.0-STABLE...`);
 console.log(`[BOOT] PORT BINDING: ${PORT}`);
 

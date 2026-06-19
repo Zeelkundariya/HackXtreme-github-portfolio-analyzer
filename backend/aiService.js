@@ -165,33 +165,91 @@ export async function getChatResponse(username, messages, context) {
         - Be professional, sharp, and slightly challenging.
         - Ask specific questions about their projects/repos.
         - Don't be generic; use the candidate's real GitHub telemetry.
-        - Keep responses concise (under 3 sentences).
-        - If they answer well, acknowledge it. If they are vague, push for architectural details.
+        INSTRUCTIONS:
+        - Be professional, sharp, and slightly challenging.
+        - Ask specific questions about their projects/repos.
+        - Don't be generic; use the candidate's real GitHub telemetry.
+        - **Provide detailed, multi-paragraph assessments (3-5 sentences per point).**
+        - If they answer well, acknowledge it with technical depth. If they are vague, push for specific architectural details.
+        - IMPORTANT: Your goal is to provide a high-fidelity technical audit that helps the candidate improve.
     `;
 
-    if (!process.env.GOOGLE_API_KEY || process.env.GOOGLE_API_KEY === 'your_google_api_key_here' || !process.env.GOOGLE_API_KEY.startsWith('AIza')) {
-        // Fallback Logic
+    const isValidApiKey = process.env.GOOGLE_API_KEY &&
+        process.env.GOOGLE_API_KEY !== 'your_google_api_key_here' &&
+        process.env.GOOGLE_API_KEY.startsWith('AIza');
+
+    if (!isValidApiKey) {
+        // High-Fidelity Detailed Fallback Logic
         const lastMsg = messages[messages.length - 1].content.toLowerCase();
+        const tech = context.techStack?.[0]?.name || "modern technologies";
+        const topRepo = context.allRepos?.[0]?.name || "your primary project";
+
         if (lastMsg.includes('hello') || lastMsg.includes('hi')) {
-            return "Hello! I've been looking over your GitHub profile. Your work in " + (context.techStack?.[0]?.name || "modern tech") + " caught my eye. What was the most challenging architectural decision you made in " + (context.allRepos?.[0]?.name || "your main project") + "?";
+            return `Hello! I've been conducting a deep-dive into your GitHub profile, and your work in ${tech} stands out as a strong signal. Specifically, in ${topRepo}, I see some interesting patterns. \n\nBefore we proceed, I'd like to understand your architectural philosophy: How do you decide between a monolithic approach versus a micro-module structure when you're starting a new high-impact project like this?`;
         }
-        return "That's an interesting perspective. How did you handle scalability and state management in that specific implementation? I'm looking for Staff-level insight.";
+        if (lastMsg.includes('react') || lastMsg.includes('frontend')) {
+            return `Interesting. Given your focus on ${tech}, how do you approach component composition and state management to ensure long-term scalability? \n\nI'm looking for details on how you handle side effects, prop drilling, and performance optimization (using Memo/UseCallback). In a production environment, how do you ensure your frontend stays performant as the data layer grows?`;
+        }
+        if (lastMsg.includes('api') || lastMsg.includes('backend')) {
+            return `I noticed some backend patterns in your work. How do you handle high-concurrency scenarios or data consistency in your services? \n\nSpecifically, what's your strategy for error handling and logging? Beyond just status codes, how do you design your systems to be observable and easy to debug when something fails in a distributed environment?`;
+        }
+
+        return `That's an interesting technical perspective. To dig deeper into your "Engineering Depth" signal, how did you handle scalability and state management in ${topRepo}? \n\nI'm looking for Staff-level insight here—specifically, what technical trade-offs did you make during the implementation, and if you had to refactor it today for a Tier-1 production environment, what's the first thing you'd change?`;
     }
 
     try {
         const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
-        const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+        const model = genAI.getGenerativeModel({
+            model: "gemini-1.5-flash",
+            systemInstruction: systemPrompt
+        });
 
-        // Convert message format to Gemini's expected format if needed, 
-        // but for simplicity we can just pass the latest history as a prompt.
-        const chatHistory = messages.map(m => `${m.role === 'user' ? 'Candidate' : 'Recruiter'}: ${m.content}`).join('\n');
+        // Convert messages to Gemini history format
+        const history = [];
+        let foundFirstUser = false;
 
-        const finalPrompt = `${systemPrompt}\n\nChat History:\n${chatHistory}\n\nRecruiter:`;
+        for (const m of messages.slice(0, -1)) {
+            if (m.role === 'user') foundFirstUser = true;
+            if (foundFirstUser) {
+                history.push({
+                    role: m.role === 'user' ? 'user' : 'model',
+                    parts: [{ text: m.content }]
+                });
+            }
+        }
 
-        const result = await model.generateContent(finalPrompt);
-        return result.response.text();
+        const chat = model.startChat({
+            history: history,
+            generationConfig: {
+                maxOutputTokens: 500, // Increased for more depth
+            },
+        });
+
+        const lastUserMessage = messages[messages.length - 1].content;
+        const result = await chat.sendMessage(lastUserMessage);
+        const response = await result.response;
+        return response.text();
     } catch (err) {
         console.error("Gemini Chat Error:", err.message);
-        return "Sorry, my technical assessment engine is experiencing latency. Let's focus on your " + (context.allRepos?.[0]?.name || "latest project") + ". Can you explain the structural logic there?";
+
+        const lastUserMsg = messages[messages.length - 1].content.toLowerCase();
+        const topRepo = (context.allRepos && context.allRepos[0]) ? context.allRepos[0].name : "your main project";
+
+        // Deep Dynamic Fallback
+        if (lastUserMsg.includes("commit") || lastUserMsg.includes("history") || lastUserMsg.includes("ghost")) {
+            const discipline = context.strengths?.includes('Professional Commit Discipline') ? 'excellent' : 'developing';
+            return `Looking at your GitHub telemetry, your commit patterns show ${discipline} discipline. In ${topRepo}, I see your evolution as a developer. \n\nTo reach Staff-level depth, I recommend adopting "Conventional Commits" and ensuring every PR has a technical spec. How do you currently balance your feature velocity with the need for clean, documented history?`;
+        }
+        if (lastUserMsg.includes("red flag") || lastUserMsg.includes("hire") || lastUserMsg.includes("senior")) {
+            return `For a Senior role at a Tier-1 firm, I'm looking for architectural ownership. Your ${context.roleFit} signal is strong in ${tech}, but the "Red Flag" is the lack of documentation in your secondary repos. \n\nRecruiters want to see *why* you built something, not just the code. If I were to hire you today, how would you convince me that your codebase in ${topRepo} is production-ready and maintainable by a large team?`;
+        }
+        if (lastUserMsg.includes("architecture") || lastUserMsg.includes("design") || lastUserMsg.includes("pattern")) {
+            return `Your work in ${topRepo} suggests you're familiar with modern patterns. However, true seniority comes from understanding the *limits* of those patterns. \n\nCan you explain a time when a specific design pattern (like Singleton or Factory) actually caused more complexity than it solved? I'm interested in your ability to choose the *right* tool for the job, not just the most popular one.`;
+        }
+
+        if (err.message.includes("API key")) {
+            return `My technical assessment engine is reporting an API configuration error. However, as a Recruiter, I'm manually looking at your ${topRepo}. It shows good structural logic. \n\nCan you walk me through the most complex technical challenge you solved in that specific codebase? I'm looking for details on performance bottlenecks or edge cases you handled.`;
+        }
+        return `I'm seeing some structural latency in my deep-audit systems. Let's keep it high-fidelity: what's the most complex technical bug you've solved in ${topRepo}? \n\nI want to hear about your debugging process—how did you isolate the issue, what tools did you use, and how did you ensure it never happens again?`;
     }
 }

@@ -1,0 +1,3344 @@
+{
+  "username": "Zeelkundariya",
+  "score": 79,
+  "verdict": "Lead-Grade Potential 🚀",
+  "totalRepos": 61,
+  "totalStars": 0,
+  "redFlags": [
+    "Missing bio",
+    "Many repos lack descriptions"
+  ],
+  "strengths": [
+    "Live demos available (8 repos)",
+    "Active contributor in recent months",
+    "Polyglot developer (3+ languages)",
+    "High Contributor Reliability"
+  ],
+  "roleFit": "Full Stack Developer",
+  "priorityFixes": [
+    {
+      "name": "lms-codinggita",
+      "issues": [
+        "Action: Add a description to 'lms-codinggita'. Try: \"A code project for lms codinggita.\" (Impact: +5 pts)"
+      ]
+    },
+    {
+      "name": "Node-Assignment",
+      "issues": [
+        "Action: Deploy 'Node-Assignment' live (Vercel/Netlify) or add a demo link. Recruiters want to click and see, not just read code. (Impact: +10 pts)"
+      ]
+    },
+    {
+      "name": "AI-Chatbot",
+      "issues": [
+        "Action: Add an MIT/Apache license to 'AI-Chatbot'. Unlicensed code is a red flag for companies. (Impact: +5 pts)"
+      ]
+    },
+    {
+      "name": "HackXtreme-github-portfolio-analyzer",
+      "issues": [
+        "Action: Deploy 'HackXtreme-github-portfolio-analyzer' live (Vercel/Netlify) or add a demo link. Recruiters want to click and see, not just read code. (Impact: +10 pts)"
+      ]
+    },
+    {
+      "name": "Zeelkundariya-github-portfolio-analyzer-ready",
+      "issues": [
+        "Action: Add a description to 'Zeelkundariya-github-portfolio-analyzer-ready'. Try: \"A code project for Zeelkundariya github portfolio analyzer ready.\" (Impact: +5 pts)"
+      ]
+    }
+  ],
+  "potentialScore": 100,
+  "languageBreakdown": [
+    {
+      "language": "HTML",
+      "count": 22,
+      "percentage": 55
+    },
+    {
+      "language": "JavaScript",
+      "count": 16,
+      "percentage": 40
+    },
+    {
+      "language": "Python",
+      "count": 2,
+      "percentage": 5
+    }
+  ],
+  "techStack": [
+    {
+      "name": "html",
+      "count": 23
+    },
+    {
+      "name": "javascript",
+      "count": 16
+    },
+    {
+      "name": "python",
+      "count": 2
+    },
+    {
+      "name": "mongodb",
+      "count": 1
+    },
+    {
+      "name": "css",
+      "count": 1
+    },
+    {
+      "name": "node",
+      "count": 1
+    }
+  ],
+  "communityHealth": {
+    "licenseCount": 0,
+    "totalRepos": 53,
+    "totalForks": 3,
+    "openIssues": 2,
+    "avgActivity": "0.4",
+    "healthScore": 9
+  },
+  "repoFeedback": [
+    {
+      "name": "Emotion-Aware",
+      "url": "https://github.com/Zeelkundariya/Emotion-Aware",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "grade": "C+",
+      "tip": "Recruiters are busy. They won't clone 'Emotion-Aware'. Host it somewhere so they can click and play."
+    },
+    {
+      "name": "Mongodb-Test",
+      "url": "https://github.com/Zeelkundariya/Mongodb-Test",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "grade": "D",
+      "tip": "Mystery Box: 'Mongodb-Test' has no description. Edit the \"About\" section on the right sidebar of the repo."
+    },
+    {
+      "name": "YogeshSir-Mongodb-Task",
+      "url": "https://github.com/Zeelkundariya/YogeshSir-Mongodb-Task",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "grade": "C+",
+      "tip": "Recruiters are busy. They won't clone 'YogeshSir-Mongodb-Task'. Host it somewhere so they can click and play."
+    },
+    {
+      "name": "SU-Hackathon",
+      "url": "https://github.com/Zeelkundariya/SU-Hackathon",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 1,
+      "grade": "D",
+      "tip": "Mystery Box: 'SU-Hackathon' has no description. Edit the \"About\" section on the right sidebar of the repo."
+    },
+    {
+      "name": "YogeshSir-Task",
+      "url": "https://github.com/Zeelkundariya/YogeshSir-Task",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "grade": "D",
+      "tip": "Don't leave 'YogeshSir-Task' empty. Even a single sentence description helps SEO and context."
+    }
+  ],
+  "demoRepos": [
+    {
+      "name": "WEBSITE-CLONE",
+      "url": "https://github.com/Zeelkundariya/WEBSITE-CLONE",
+      "demo": "https://github.com/Zeelkundariya/WEBSITE-CLONE",
+      "desc": "https://sonatawatcheszeel.netlify.app/      https://musiczeel.netlify.app/          https://snitchzeel.netlify.app/            https://olipopzeel.netlify.app/           https://ethikzeel.netlify.app/             https://bitcoincashzeel.netlify.app/",
+      "host": "Live Demo via Repo"
+    },
+    {
+      "name": "AI-Chatbot",
+      "url": "https://github.com/Zeelkundariya/AI-Chatbot",
+      "demo": "https://ai-chatbot-8ud5.onrender.com/",
+      "desc": "Study Bot Elite: An advanced, cross-platform AI Study Assistant powered by Llama-3, LangChain, and FastAPI. Features conversational memory, PDF-based RAG, interactive step-by-step quizzes, and a premium glassmorphism UI. Web & Mobile parity.",
+      "host": "GitHub"
+    },
+    {
+      "name": "Battle-Bots",
+      "url": "https://github.com/Zeelkundariya/Battle-Bots",
+      "demo": "https://rupiyaapp.netlify.app/",
+      "desc": "Project featuring multiple website clones and live demos.",
+      "host": "Netlify"
+    },
+    {
+      "name": "C-Assignment",
+      "url": "https://github.com/Zeelkundariya/C-Assignment",
+      "demo": "https://zeelhtml.netlify.app/",
+      "desc": "Project featuring multiple website clones and live demos.",
+      "host": "Netlify"
+    },
+    {
+      "name": "Code4Us",
+      "url": "https://github.com/Zeelkundariya/Code4Us",
+      "demo": "https://app.netlify.com/projects/code4us-expenses-management/overview",
+      "desc": "Project featuring multiple website clones and live demos.",
+      "host": "Netlify"
+    },
+    {
+      "name": "Diwali-Assignment",
+      "url": "https://github.com/Zeelkundariya/Diwali-Assignment",
+      "demo": "https://magenta-khapse-dab537.netlify.app/",
+      "desc": "Project featuring multiple website clones and live demos.",
+      "host": "Netlify"
+    },
+    {
+      "name": "Diwali-Assignment1",
+      "url": "https://github.com/Zeelkundariya/Diwali-Assignment1",
+      "demo": "https://celadon-mochi-c283dc.netlify.app/",
+      "desc": "Project featuring multiple website clones and live demos.",
+      "host": "Netlify"
+    },
+    {
+      "name": "Diwali-Assignment2",
+      "url": "https://github.com/Zeelkundariya/Diwali-Assignment2",
+      "demo": "https://app.netlify.com/projects/willowy-cascaron-8c33d4/overview",
+      "desc": "Project featuring multiple website clones and live demos.",
+      "host": "Netlify"
+    },
+    {
+      "name": "HTML-Assignment",
+      "url": "https://github.com/Zeelkundariya/HTML-Assignment",
+      "demo": "https://zeelhtml.netlify.app/",
+      "desc": "Project featuring multiple website clones and live demos.",
+      "host": "Netlify"
+    }
+  ],
+  "recentContributions": null,
+  "consistency": "Steady Coder 🏃",
+  "allRepos": [
+    {
+      "name": "CGxSU_Semester_1",
+      "url": "https://github.com/Zeelkundariya/CGxSU_Semester_1",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 63274,
+      "recentCommits": 1,
+      "updated_at": "2026-03-05T05:09:44Z",
+      "description": "No description provided.",
+      "isFork": true,
+      "activityScore": 632.74
+    },
+    {
+      "name": "HTML-Assignment",
+      "url": "https://github.com/Zeelkundariya/HTML-Assignment",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 59245,
+      "recentCommits": 0,
+      "updated_at": "2025-09-19T10:39:57Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 592.45
+    },
+    {
+      "name": "Hackathon-projects-all",
+      "url": "https://github.com/Zeelkundariya/Hackathon-projects-all",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 5941,
+      "recentCommits": 1,
+      "updated_at": "2026-02-17T12:19:59Z",
+      "description": "A comprehensive portfolio of hackathon-winning projects leveraging AI, industrial optimization, and modern web frameworks.",
+      "isFork": false,
+      "activityScore": 59.41
+    },
+    {
+      "name": "Innovators-Prime-1",
+      "url": "https://github.com/Zeelkundariya/Innovators-Prime-1",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 4973,
+      "recentCommits": 0,
+      "updated_at": "2026-02-16T08:35:26Z",
+      "description": "Learning platform 1",
+      "isFork": false,
+      "activityScore": 49.73
+    },
+    {
+      "name": "Figma-Test",
+      "url": "https://github.com/Zeelkundariya/Figma-Test",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 3603,
+      "recentCommits": 0,
+      "updated_at": "2025-09-01T06:04:38Z",
+      "description": "No description provided.",
+      "isFork": true,
+      "activityScore": 36.03
+    },
+    {
+      "name": "full_stack_development_2025",
+      "url": "https://github.com/Zeelkundariya/full_stack_development_2025",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 3450,
+      "recentCommits": 0,
+      "updated_at": "2026-01-31T10:42:23Z",
+      "description": "full_stack_development_2025",
+      "isFork": true,
+      "activityScore": 34.5
+    },
+    {
+      "name": "AI-Risk-Scanner",
+      "url": "https://github.com/Zeelkundariya/AI-Risk-Scanner",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 3427,
+      "recentCommits": 1,
+      "updated_at": "2026-02-17T06:16:32Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 34.27
+    },
+    {
+      "name": "Diwali-Assignment2",
+      "url": "https://github.com/Zeelkundariya/Diwali-Assignment2",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 3219,
+      "recentCommits": 0,
+      "updated_at": "2025-12-13T10:03:34Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 32.19
+    },
+    {
+      "name": "WEBSITE-CLONE",
+      "url": "https://github.com/Zeelkundariya/WEBSITE-CLONE",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 3154,
+      "recentCommits": 0,
+      "updated_at": "2025-12-13T09:40:03Z",
+      "description": "https://sonatawatcheszeel.netlify.app/      https://musiczeel.netlify.app/          https://snitchzeel.netlify.app/            https://olipopzeel.netlify.app/           https://ethikzeel.netlify.app/             https://bitcoincashzeel.netlify.app/",
+      "isFork": false,
+      "activityScore": 31.54
+    },
+    {
+      "name": "game-task-1",
+      "url": "https://github.com/Zeelkundariya/game-task-1",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 3091,
+      "recentCommits": 0,
+      "updated_at": "2025-12-04T09:46:09Z",
+      "description": "No description provided.",
+      "isFork": true,
+      "activityScore": 30.91
+    },
+    {
+      "name": "YogeshSir-Mongodb-Task",
+      "url": "https://github.com/Zeelkundariya/YogeshSir-Mongodb-Task",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 2960,
+      "recentCommits": 1,
+      "updated_at": "2026-03-07T05:47:47Z",
+      "description": "Collection  : https://yogeshsir-mongodb-task.onrender.com   Task-1 https://yogeshsir-mongodb-task-1.onrender.com",
+      "isFork": false,
+      "activityScore": 29.6
+    },
+    {
+      "name": "Mongodb-Test",
+      "url": "https://github.com/Zeelkundariya/Mongodb-Test",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 2941,
+      "recentCommits": 1,
+      "updated_at": "2026-03-07T06:37:58Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 29.41
+    },
+    {
+      "name": "test",
+      "url": "https://github.com/Zeelkundariya/test",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 2759,
+      "recentCommits": 0,
+      "updated_at": "2025-09-04T05:47:34Z",
+      "description": "No description provided.",
+      "isFork": true,
+      "activityScore": 27.59
+    },
+    {
+      "name": "royal_rebooters",
+      "url": "https://github.com/Zeelkundariya/royal_rebooters",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 2,
+      "size": 0,
+      "recentCommits": 0,
+      "updated_at": "2025-11-15T18:45:50Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 10
+    },
+    {
+      "name": "Innovators-Prime",
+      "url": "https://github.com/Zeelkundariya/Innovators-Prime",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 974,
+      "recentCommits": 0,
+      "updated_at": "2026-02-16T08:33:27Z",
+      "description": "Learning Platform",
+      "isFork": false,
+      "activityScore": 9.74
+    },
+    {
+      "name": "Battle-Bots",
+      "url": "https://github.com/Zeelkundariya/Battle-Bots",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 911,
+      "recentCommits": 0,
+      "updated_at": "2025-11-16T15:32:56Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 9.11
+    },
+    {
+      "name": "Node-Assignment",
+      "url": "https://github.com/Zeelkundariya/Node-Assignment",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 704,
+      "recentCommits": 1,
+      "updated_at": "2026-02-27T12:33:29Z",
+      "description": "student-cgpa-api : https://node-assignment-1jav.onrender.com      e-commerce-product-api : https://node-assignment-4-izgr.onrender.comhttps://node-assignment-3-1hpo.onrender.com   state-statistics-management-api: ",
+      "isFork": false,
+      "activityScore": 7.04
+    },
+    {
+      "name": "Hackathon-projects",
+      "url": "https://github.com/Zeelkundariya/Hackathon-projects",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 656,
+      "recentCommits": 1,
+      "updated_at": "2026-02-17T04:41:10Z",
+      "description": "A collection of innovative hackathon projects featuring LedgerCore (real-time expense management) and Rupiya (agricultural empowerment and digital tools for farmers).",
+      "isFork": false,
+      "activityScore": 6.56
+    },
+    {
+      "name": "TIMEPASS1",
+      "url": "https://github.com/Zeelkundariya/TIMEPASS1",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 638,
+      "recentCommits": 0,
+      "updated_at": "2025-12-31T11:33:19Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 6.38
+    },
+    {
+      "name": "SU-Hackathon",
+      "url": "https://github.com/Zeelkundariya/SU-Hackathon",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 1,
+      "size": 47,
+      "recentCommits": 1,
+      "updated_at": "2026-03-06T09:26:56Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 5.47
+    },
+    {
+      "name": "github-portfolio-analyzer",
+      "url": "https://github.com/Zeelkundariya/github-portfolio-analyzer",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 303,
+      "recentCommits": 1,
+      "updated_at": "2026-02-19T11:28:26Z",
+      "description": "A professional-grade GitHub auditing platform that transforms contribution data into a high-density Engineering Signal. Benchmarks profiles against Big Tech standards using AI-driven gap analysis and tactical revival plans.",
+      "isFork": false,
+      "activityScore": 3.03
+    },
+    {
+      "name": "Diwali-Assignment",
+      "url": "https://github.com/Zeelkundariya/Diwali-Assignment",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 155,
+      "recentCommits": 0,
+      "updated_at": "2025-10-28T06:05:11Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 1.55
+    },
+    {
+      "name": "Diwali-Assignment1",
+      "url": "https://github.com/Zeelkundariya/Diwali-Assignment1",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 133,
+      "recentCommits": 0,
+      "updated_at": "2025-10-28T05:41:40Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 1.33
+    },
+    {
+      "name": "HackXtreme-github-portfolio-analyzer",
+      "url": "https://github.com/Zeelkundariya/HackXtreme-github-portfolio-analyzer",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 133,
+      "recentCommits": 1,
+      "updated_at": "2026-02-21T07:53:04Z",
+      "description": "AI-driven technical auditing engine that deconstructs your GitHub engineering DNA. Turn silent repositories into recruiter-ready proof with deterministic scoring, interactive AI recruiter simulations, and high-fidelity architectural gap analysis. 🚀💎",
+      "isFork": false,
+      "activityScore": 1.33
+    },
+    {
+      "name": "Zeelkundariya-github-portfolio-analyzer-ready",
+      "url": "https://github.com/Zeelkundariya/Zeelkundariya-github-portfolio-analyzer-ready",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 128,
+      "recentCommits": 1,
+      "updated_at": "2026-02-19T12:52:16Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 1.28
+    },
+    {
+      "name": "AI-Chatbot",
+      "url": "https://github.com/Zeelkundariya/AI-Chatbot",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 107,
+      "recentCommits": 1,
+      "updated_at": "2026-02-23T05:33:27Z",
+      "description": "Study Bot Elite: An advanced, cross-platform AI Study Assistant powered by Llama-3, LangChain, and FastAPI. Features conversational memory, PDF-based RAG, interactive step-by-step quizzes, and a premium glassmorphism UI. Web & Mobile parity.",
+      "isFork": false,
+      "activityScore": 1.07
+    },
+    {
+      "name": "learning",
+      "url": "https://github.com/Zeelkundariya/learning",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 71,
+      "recentCommits": 0,
+      "updated_at": "2026-01-07T04:17:34Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.71
+    },
+    {
+      "name": "Emotion-Aware",
+      "url": "https://github.com/Zeelkundariya/Emotion-Aware",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size": 37,
+      "recentCommits": 1,
+      "updated_at": "2026-03-07T10:51:36Z",
+      "description": "\"Privacy-first Emotion-Aware Encryption. Features: 👁️ Vision AI Shredder, 🔐 Mood-Locked Vault, 🕵️ Pixel Steganography, and 🌪️ Traffic Chaffing. 🏆",
+      "isFork": false,
+      "activityScore": 0.37
+    },
+    {
+      "name": "CSS-assignment",
+      "url": "https://github.com/Zeelkundariya/CSS-assignment",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 29,
+      "recentCommits": 0,
+      "updated_at": "2025-10-13T06:16:38Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.29
+    },
+    {
+      "name": "practiceRepo",
+      "url": "https://github.com/Zeelkundariya/practiceRepo",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 17,
+      "recentCommits": 0,
+      "updated_at": "2025-09-05T05:03:28Z",
+      "description": "No description provided.",
+      "isFork": true,
+      "activityScore": 0.17
+    },
+    {
+      "name": "Neelsir-Task",
+      "url": "https://github.com/Zeelkundariya/Neelsir-Task",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 14,
+      "recentCommits": 1,
+      "updated_at": "2026-02-17T10:49:00Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.14
+    },
+    {
+      "name": "YogeshSir-Task",
+      "url": "https://github.com/Zeelkundariya/YogeshSir-Task",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 14,
+      "recentCommits": 1,
+      "updated_at": "2026-03-06T04:13:45Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.14
+    },
+    {
+      "name": "server",
+      "url": "https://github.com/Zeelkundariya/server",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 12,
+      "recentCommits": 0,
+      "updated_at": "2026-02-02T06:14:16Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.12
+    },
+    {
+      "name": "Code4Us",
+      "url": "https://github.com/Zeelkundariya/Code4Us",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 11,
+      "recentCommits": 0,
+      "updated_at": "2025-11-29T18:20:06Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.11
+    },
+    {
+      "name": "git-practice",
+      "url": "https://github.com/Zeelkundariya/git-practice",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 9,
+      "recentCommits": 0,
+      "updated_at": "2025-08-23T08:51:51Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.09
+    },
+    {
+      "name": "C-Assignment",
+      "url": "https://github.com/Zeelkundariya/C-Assignment",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 5,
+      "recentCommits": 0,
+      "updated_at": "2025-10-08T09:54:28Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.05
+    },
+    {
+      "name": "GIT",
+      "url": "https://github.com/Zeelkundariya/GIT",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 5,
+      "recentCommits": 0,
+      "updated_at": "2025-09-12T09:05:59Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.05
+    },
+    {
+      "name": "Assignment2",
+      "url": "https://github.com/Zeelkundariya/Assignment2",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 4,
+      "recentCommits": 0,
+      "updated_at": "2025-08-18T16:34:02Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.04
+    },
+    {
+      "name": "C-language-Exam",
+      "url": "https://github.com/Zeelkundariya/C-language-Exam",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 4,
+      "recentCommits": 0,
+      "updated_at": "2025-12-03T09:58:10Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.04
+    },
+    {
+      "name": "su_test_sep_01",
+      "url": "https://github.com/Zeelkundariya/su_test_sep_01",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 4,
+      "recentCommits": 0,
+      "updated_at": "2025-09-01T07:34:22Z",
+      "description": "No description provided.",
+      "isFork": true,
+      "activityScore": 0.04
+    },
+    {
+      "name": "kundariya",
+      "url": "https://github.com/Zeelkundariya/kundariya",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 3,
+      "recentCommits": 0,
+      "updated_at": "2025-09-03T09:50:47Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.03
+    },
+    {
+      "name": "Activity",
+      "url": "https://github.com/Zeelkundariya/Activity",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 2,
+      "recentCommits": 0,
+      "updated_at": "2025-09-02T08:56:28Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.02
+    },
+    {
+      "name": "su_sem1_assignments",
+      "url": "https://github.com/Zeelkundariya/su_sem1_assignments",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 2,
+      "recentCommits": 0,
+      "updated_at": "2025-09-09T11:02:34Z",
+      "description": "Repository for Submitting Semester 1 Assignments and Project Ideas",
+      "isFork": true,
+      "activityScore": 0.02
+    },
+    {
+      "name": "Zeel",
+      "url": "https://github.com/Zeelkundariya/Zeel",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 2,
+      "recentCommits": 0,
+      "updated_at": "2025-08-26T09:48:13Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.02
+    },
+    {
+      "name": "Activity1",
+      "url": "https://github.com/Zeelkundariya/Activity1",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 1,
+      "recentCommits": 0,
+      "updated_at": "2025-09-02T08:54:50Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.01
+    },
+    {
+      "name": "JS-PRACTICE",
+      "url": "https://github.com/Zeelkundariya/JS-PRACTICE",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 1,
+      "recentCommits": 0,
+      "updated_at": "2025-12-08T14:17:52Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.01
+    },
+    {
+      "name": "Mini-Project",
+      "url": "https://github.com/Zeelkundariya/Mini-Project",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 1,
+      "recentCommits": 0,
+      "updated_at": "2025-08-13T06:44:17Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.01
+    },
+    {
+      "name": "Mini-Project1",
+      "url": "https://github.com/Zeelkundariya/Mini-Project1",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "size": 1,
+      "recentCommits": 0,
+      "updated_at": "2025-08-13T07:01:28Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.01
+    },
+    {
+      "name": "MY-PROJECT",
+      "url": "https://github.com/Zeelkundariya/MY-PROJECT",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size": 1,
+      "recentCommits": 0,
+      "updated_at": "2025-12-29T06:45:03Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0.01
+    },
+    {
+      "name": "-Mental-Wellness-",
+      "url": "https://github.com/Zeelkundariya/-Mental-Wellness-",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 0,
+      "recentCommits": 0,
+      "updated_at": "2025-12-15T04:31:15Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0
+    },
+    {
+      "name": "ai-risk-",
+      "url": "https://github.com/Zeelkundariya/ai-risk-",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 0,
+      "recentCommits": 0,
+      "updated_at": "2026-02-10T06:13:06Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0
+    },
+    {
+      "name": "battle",
+      "url": "https://github.com/Zeelkundariya/battle",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 0,
+      "recentCommits": 0,
+      "updated_at": "2025-11-16T13:38:45Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0
+    },
+    {
+      "name": "BattleBots",
+      "url": "https://github.com/Zeelkundariya/BattleBots",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 0,
+      "recentCommits": 0,
+      "updated_at": "2025-11-16T13:37:45Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0
+    },
+    {
+      "name": "Class-Assignment",
+      "url": "https://github.com/Zeelkundariya/Class-Assignment",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 0,
+      "recentCommits": 0,
+      "updated_at": "2025-08-21T09:56:29Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0
+    },
+    {
+      "name": "Collaborators",
+      "url": "https://github.com/Zeelkundariya/Collaborators",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 0,
+      "recentCommits": 0,
+      "updated_at": "2025-09-13T08:51:53Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0
+    },
+    {
+      "name": "exchange",
+      "url": "https://github.com/Zeelkundariya/exchange",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 0,
+      "recentCommits": 0,
+      "updated_at": "2026-01-06T10:39:11Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0
+    },
+    {
+      "name": "Github-sem-1",
+      "url": "https://github.com/Zeelkundariya/Github-sem-1",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 0,
+      "recentCommits": 0,
+      "updated_at": "2025-12-04T08:54:07Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0
+    },
+    {
+      "name": "lms-codinggita",
+      "url": "https://github.com/Zeelkundariya/lms-codinggita",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 0,
+      "recentCommits": 1,
+      "updated_at": "2026-03-05T09:40:15Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0
+    },
+    {
+      "name": "new",
+      "url": "https://github.com/Zeelkundariya/new",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 0,
+      "recentCommits": 0,
+      "updated_at": "2026-02-03T04:30:53Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0
+    },
+    {
+      "name": "rupiya-ai-scanner",
+      "url": "https://github.com/Zeelkundariya/rupiya-ai-scanner",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 0,
+      "recentCommits": 0,
+      "updated_at": "2025-11-15T04:05:05Z",
+      "description": "AI camera scanner with OCR, translation & Firebase saving",
+      "isFork": false,
+      "activityScore": 0
+    },
+    {
+      "name": "Rupiya.app",
+      "url": "https://github.com/Zeelkundariya/Rupiya.app",
+      "language": "Unknown",
+      "stars": 0,
+      "forks": 0,
+      "size": 0,
+      "recentCommits": 0,
+      "updated_at": "2025-11-15T04:03:04Z",
+      "description": "No description provided.",
+      "isFork": false,
+      "activityScore": 0
+    }
+  ],
+  "generatedAt": 1772942972619,
+  "totalLifetimeContributions": 279,
+  "aiFeedback": "\n### 🛡️ AI Recruiter Verdict: Technical Audit (High-Reliability Mode)\n\n**Score Performance: 79/100**\n\n#### 💎 Engineering Depth Signals\n- **Architectural Footprint**: Detected high complexity in [object Object], [object Object], [object Object] core modules.\n- **Production Readiness**: Exhibits Staff-level system ownership through clean repository structure.\n- **Evolutionary Potential**: The current signal aligns with Tier-1 engineering standards for a Lead-Grade Potential 🚀.\n\n#### 🚀 Strategic Growth Roadmap\n- Continue scaling technical volume in [object Object] projects.\n- Adopt higher-fidelity documentation patterns for mature repositories.\n\n*Audit performed by local Technical Engine due to API latency.*\n        ",
+  "events": [
+    {
+      "id": "9137554828",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1174968499,
+        "name": "Zeelkundariya/Emotion-Aware",
+        "url": "https://api.github.com/repos/Zeelkundariya/Emotion-Aware"
+      },
+      "payload": {
+        "repository_id": 1174968499,
+        "push_id": 31431266577,
+        "ref": "refs/heads/main",
+        "head": "49727be19de4d1023f7646842d0a22ed4cc1836c",
+        "before": "93012f22370cf579d0099a75ba763f5509d795f8"
+      },
+      "public": true,
+      "created_at": "2026-03-07T10:51:34Z"
+    },
+    {
+      "id": "9137530927",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1174968499,
+        "name": "Zeelkundariya/Emotion-Aware",
+        "url": "https://api.github.com/repos/Zeelkundariya/Emotion-Aware"
+      },
+      "payload": {
+        "repository_id": 1174968499,
+        "push_id": 31431242834,
+        "ref": "refs/heads/main",
+        "head": "93012f22370cf579d0099a75ba763f5509d795f8",
+        "before": "9ab52f589484092bb45b90d497a72ad9b1c57935"
+      },
+      "public": true,
+      "created_at": "2026-03-07T10:49:54Z"
+    },
+    {
+      "id": "9137507396",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1174968499,
+        "name": "Zeelkundariya/Emotion-Aware",
+        "url": "https://api.github.com/repos/Zeelkundariya/Emotion-Aware"
+      },
+      "payload": {
+        "repository_id": 1174968499,
+        "push_id": 31431219319,
+        "ref": "refs/heads/main",
+        "head": "9ab52f589484092bb45b90d497a72ad9b1c57935",
+        "before": "c0af7b3dd9e40c4407af7f735e64f5dcb924f9d4"
+      },
+      "public": true,
+      "created_at": "2026-03-07T10:48:13Z"
+    },
+    {
+      "id": "9137494115",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1174968499,
+        "name": "Zeelkundariya/Emotion-Aware",
+        "url": "https://api.github.com/repos/Zeelkundariya/Emotion-Aware"
+      },
+      "payload": {
+        "repository_id": 1174968499,
+        "push_id": 31431206012,
+        "ref": "refs/heads/main",
+        "head": "c0af7b3dd9e40c4407af7f735e64f5dcb924f9d4",
+        "before": "0efb3cd8db0ec87b3cf6081a2cfdb4c7bfb3e8b7"
+      },
+      "public": true,
+      "created_at": "2026-03-07T10:47:16Z"
+    },
+    {
+      "id": "9136514391",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1174968499,
+        "name": "Zeelkundariya/Emotion-Aware",
+        "url": "https://api.github.com/repos/Zeelkundariya/Emotion-Aware"
+      },
+      "payload": {
+        "repository_id": 1174968499,
+        "push_id": 31430225069,
+        "ref": "refs/heads/main",
+        "head": "0efb3cd8db0ec87b3cf6081a2cfdb4c7bfb3e8b7",
+        "before": "1f23f9b79be39ec98c096c406f0502830d0778f1"
+      },
+      "public": true,
+      "created_at": "2026-03-07T09:40:54Z"
+    },
+    {
+      "id": "9133862692",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1175020111,
+        "name": "Zeelkundariya/Mongodb-Test",
+        "url": "https://api.github.com/repos/Zeelkundariya/Mongodb-Test"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": null,
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-03-07T06:37:54Z"
+    },
+    {
+      "id": "9133011731",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1174111314,
+        "name": "Zeelkundariya/YogeshSir-Mongodb-Task",
+        "url": "https://api.github.com/repos/Zeelkundariya/YogeshSir-Mongodb-Task"
+      },
+      "payload": {
+        "repository_id": 1174111314,
+        "push_id": 31426732623,
+        "ref": "refs/heads/main",
+        "head": "061e9e34bf5a69f1d6c50ea30dbe58590d00c124",
+        "before": "e363fb12c4883dc0976991191d5dd6fc9633f754"
+      },
+      "public": true,
+      "created_at": "2026-03-07T05:39:05Z"
+    },
+    {
+      "id": "9131407730",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1174968499,
+        "name": "Zeelkundariya/Emotion-Aware",
+        "url": "https://api.github.com/repos/Zeelkundariya/Emotion-Aware"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": "\"Privacy-first Emotion-Aware Encryption. Features: 👁️ Vision AI Shredder, 🔐 Mood-Locked Vault, 🕵️ Pixel Steganography, and 🌪️ Traffic Chaffing. 🏆",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-03-07T03:47:25Z"
+    },
+    {
+      "id": "9102517746",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1174285412,
+        "name": "Zeelkundariya/SU-Hackathon",
+        "url": "https://api.github.com/repos/Zeelkundariya/SU-Hackathon"
+      },
+      "payload": {
+        "repository_id": 1174285412,
+        "push_id": 31396302988,
+        "ref": "refs/heads/main",
+        "head": "f9a069bc0389b24d87a7128965dea223ca734350",
+        "before": "06612d9ca456a8939d36c3da2c89512400b32eef"
+      },
+      "public": true,
+      "created_at": "2026-03-06T09:26:53Z"
+    },
+    {
+      "id": "9102159660",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1174285412,
+        "name": "Zeelkundariya/SU-Hackathon",
+        "url": "https://api.github.com/repos/Zeelkundariya/SU-Hackathon"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": null,
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-03-06T09:14:56Z"
+    },
+    {
+      "id": "9095889662",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1174111314,
+        "name": "Zeelkundariya/YogeshSir-Mongodb-Task",
+        "url": "https://api.github.com/repos/Zeelkundariya/YogeshSir-Mongodb-Task"
+      },
+      "payload": {
+        "repository_id": 1174111314,
+        "push_id": 31389670193,
+        "ref": "refs/heads/main",
+        "head": "e363fb12c4883dc0976991191d5dd6fc9633f754",
+        "before": "2fa4193b2d3fdbc18876e48da69984eaf709157a"
+      },
+      "public": true,
+      "created_at": "2026-03-06T05:01:23Z"
+    },
+    {
+      "id": "9095607883",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1174111314,
+        "name": "Zeelkundariya/YogeshSir-Mongodb-Task",
+        "url": "https://api.github.com/repos/Zeelkundariya/YogeshSir-Mongodb-Task"
+      },
+      "payload": {
+        "repository_id": 1174111314,
+        "push_id": 31389388330,
+        "ref": "refs/heads/main",
+        "head": "2fa4193b2d3fdbc18876e48da69984eaf709157a",
+        "before": "5b3a81f7b3a93556059dad0b9db6d35085c40064"
+      },
+      "public": true,
+      "created_at": "2026-03-06T04:47:36Z"
+    },
+    {
+      "id": "9095441075",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1174111314,
+        "name": "Zeelkundariya/YogeshSir-Mongodb-Task",
+        "url": "https://api.github.com/repos/Zeelkundariya/YogeshSir-Mongodb-Task"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": "Collection  : https://yogeshsir-mongodb-task.onrender.com   Task-1 https://yogeshsir-mongodb-task-1.onrender.com",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-03-06T04:39:03Z"
+    },
+    {
+      "id": "9094963247",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1174073293,
+        "name": "Zeelkundariya/YogeshSir-Task",
+        "url": "https://api.github.com/repos/Zeelkundariya/YogeshSir-Task"
+      },
+      "payload": {
+        "repository_id": 1174073293,
+        "push_id": 31388743514,
+        "ref": "refs/heads/main",
+        "head": "f6db03e02e7ee2b10841f017a973f15a3e0a2a3c",
+        "before": "967fdf2b0907c45c2bc1f1bda7aa34f2304f864f"
+      },
+      "public": true,
+      "created_at": "2026-03-06T04:13:43Z"
+    },
+    {
+      "id": "9094934397",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1174073293,
+        "name": "Zeelkundariya/YogeshSir-Task",
+        "url": "https://api.github.com/repos/Zeelkundariya/YogeshSir-Task"
+      },
+      "payload": {
+        "repository_id": 1174073293,
+        "push_id": 31388714661,
+        "ref": "refs/heads/main",
+        "head": "967fdf2b0907c45c2bc1f1bda7aa34f2304f864f",
+        "before": "1aad41815ec64fa9cd5b4947933570de88a6603d"
+      },
+      "public": true,
+      "created_at": "2026-03-06T04:12:15Z"
+    },
+    {
+      "id": "9093993431",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1174073293,
+        "name": "Zeelkundariya/YogeshSir-Task",
+        "url": "https://api.github.com/repos/Zeelkundariya/YogeshSir-Task"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": null,
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-03-06T03:25:03Z"
+    },
+    {
+      "id": "9062068377",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1173368890,
+        "name": "Zeelkundariya/lms-codinggita",
+        "url": "https://api.github.com/repos/Zeelkundariya/lms-codinggita"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": null,
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-03-05T09:40:12Z"
+    },
+    {
+      "id": "9054262243",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1034372264,
+        "name": "Zeelkundariya/CGxSU_Semester_1",
+        "url": "https://api.github.com/repos/Zeelkundariya/CGxSU_Semester_1"
+      },
+      "payload": {
+        "repository_id": 1034372264,
+        "push_id": 31348100692,
+        "ref": "refs/heads/main",
+        "head": "b9f97e7df65744c4679050e3af521f5141efe620",
+        "before": "1e6927c5ac0bbb59799443ff34a2d51d513885a5"
+      },
+      "public": true,
+      "created_at": "2026-03-05T05:09:41Z"
+    },
+    {
+      "id": "8995366012",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1034372264,
+        "name": "Zeelkundariya/CGxSU_Semester_1",
+        "url": "https://api.github.com/repos/Zeelkundariya/CGxSU_Semester_1"
+      },
+      "payload": {
+        "repository_id": 1034372264,
+        "push_id": 31289360554,
+        "ref": "refs/heads/main",
+        "head": "1e6927c5ac0bbb59799443ff34a2d51d513885a5",
+        "before": "9b8d5aa87b796eb41268aff5e74bc354cee250a7"
+      },
+      "public": true,
+      "created_at": "2026-03-03T16:27:11Z"
+    },
+    {
+      "id": "8868458306",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1164654125,
+        "name": "Zeelkundariya/Node-Assignment",
+        "url": "https://api.github.com/repos/Zeelkundariya/Node-Assignment"
+      },
+      "payload": {
+        "repository_id": 1164654125,
+        "push_id": 31162931463,
+        "ref": "refs/heads/main",
+        "head": "8e955db36975167ad222e3b857cb9525bbc91d13",
+        "before": "ee383d75e24d0d55c015936f32c81bd63e314125"
+      },
+      "public": true,
+      "created_at": "2026-02-27T12:29:07Z"
+    },
+    {
+      "id": "8868307771",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1164654125,
+        "name": "Zeelkundariya/Node-Assignment",
+        "url": "https://api.github.com/repos/Zeelkundariya/Node-Assignment"
+      },
+      "payload": {
+        "repository_id": 1164654125,
+        "push_id": 31162781899,
+        "ref": "refs/heads/main",
+        "head": "ee383d75e24d0d55c015936f32c81bd63e314125",
+        "before": "418d00dd3b5c1033ba0681324f016d942dc584d8"
+      },
+      "public": true,
+      "created_at": "2026-02-27T12:23:57Z"
+    },
+    {
+      "id": "8812512906",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1034372264,
+        "name": "Zeelkundariya/CGxSU_Semester_1",
+        "url": "https://api.github.com/repos/Zeelkundariya/CGxSU_Semester_1"
+      },
+      "payload": {
+        "repository_id": 1034372264,
+        "push_id": 31107018016,
+        "ref": "refs/heads/main",
+        "head": "9b8d5aa87b796eb41268aff5e74bc354cee250a7",
+        "before": "4014a881e15fc2142378041906256b4f93a9d259"
+      },
+      "public": true,
+      "created_at": "2026-02-26T01:15:58Z"
+    },
+    {
+      "id": "8801716363",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1164654125,
+        "name": "Zeelkundariya/Node-Assignment",
+        "url": "https://api.github.com/repos/Zeelkundariya/Node-Assignment"
+      },
+      "payload": {
+        "repository_id": 1164654125,
+        "push_id": 31095315585,
+        "ref": "refs/heads/main",
+        "head": "418d00dd3b5c1033ba0681324f016d942dc584d8",
+        "before": "f6b727b19449a17ea7b1c568d7ba8e5313a9fb73"
+      },
+      "public": true,
+      "created_at": "2026-02-25T17:57:57Z"
+    },
+    {
+      "id": "8799448371",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1164654125,
+        "name": "Zeelkundariya/Node-Assignment",
+        "url": "https://api.github.com/repos/Zeelkundariya/Node-Assignment"
+      },
+      "payload": {
+        "repository_id": 1164654125,
+        "push_id": 31094721405,
+        "ref": "refs/heads/main",
+        "head": "f6b727b19449a17ea7b1c568d7ba8e5313a9fb73",
+        "before": "07b19b2f202b08da5aaa18d0ae1fe0dc398d84b7"
+      },
+      "public": true,
+      "created_at": "2026-02-25T17:39:13Z"
+    },
+    {
+      "id": "8748283637",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1034372264,
+        "name": "Zeelkundariya/CGxSU_Semester_1",
+        "url": "https://api.github.com/repos/Zeelkundariya/CGxSU_Semester_1"
+      },
+      "payload": {
+        "repository_id": 1034372264,
+        "push_id": 31043115745,
+        "ref": "refs/heads/main",
+        "head": "4014a881e15fc2142378041906256b4f93a9d259",
+        "before": "a951df931405c3d81bf3199e8d74fa791511ee3c"
+      },
+      "public": true,
+      "created_at": "2026-02-24T12:14:04Z"
+    },
+    {
+      "id": "8732976409",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1034372264,
+        "name": "Zeelkundariya/CGxSU_Semester_1",
+        "url": "https://api.github.com/repos/Zeelkundariya/CGxSU_Semester_1"
+      },
+      "payload": {
+        "repository_id": 1034372264,
+        "push_id": 31027634669,
+        "ref": "refs/heads/main",
+        "head": "a951df931405c3d81bf3199e8d74fa791511ee3c",
+        "before": "d11ff9bb028c9b33c142ecb74bf68028250c4854"
+      },
+      "public": true,
+      "created_at": "2026-02-24T02:03:20Z"
+    },
+    {
+      "id": "8731719896",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1164654125,
+        "name": "Zeelkundariya/Node-Assignment",
+        "url": "https://api.github.com/repos/Zeelkundariya/Node-Assignment"
+      },
+      "payload": {
+        "repository_id": 1164654125,
+        "push_id": 31026378113,
+        "ref": "refs/heads/main",
+        "head": "07b19b2f202b08da5aaa18d0ae1fe0dc398d84b7",
+        "before": "95b1f7c3eb290dad011a86febfc0c502e4e19f48"
+      },
+      "public": true,
+      "created_at": "2026-02-24T01:00:44Z"
+    },
+    {
+      "id": "8712143298",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1164654125,
+        "name": "Zeelkundariya/Node-Assignment",
+        "url": "https://api.github.com/repos/Zeelkundariya/Node-Assignment"
+      },
+      "payload": {
+        "repository_id": 1164654125,
+        "push_id": 31006824905,
+        "ref": "refs/heads/main",
+        "head": "95b1f7c3eb290dad011a86febfc0c502e4e19f48",
+        "before": "994e0f1960e46f57c6d6f7e5d6d408fd9a94c6ba"
+      },
+      "public": true,
+      "created_at": "2026-02-23T13:32:43Z"
+    },
+    {
+      "id": "8712049132",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1164654125,
+        "name": "Zeelkundariya/Node-Assignment",
+        "url": "https://api.github.com/repos/Zeelkundariya/Node-Assignment"
+      },
+      "payload": {
+        "repository_id": 1164654125,
+        "push_id": 31006730616,
+        "ref": "refs/heads/main",
+        "head": "994e0f1960e46f57c6d6f7e5d6d408fd9a94c6ba",
+        "before": "002a711710263c9f0068ce80a679f04f369b856f"
+      },
+      "public": true,
+      "created_at": "2026-02-23T13:29:54Z"
+    },
+    {
+      "id": "8711766941",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1164654125,
+        "name": "Zeelkundariya/Node-Assignment",
+        "url": "https://api.github.com/repos/Zeelkundariya/Node-Assignment"
+      },
+      "payload": {
+        "repository_id": 1164654125,
+        "push_id": 31006448555,
+        "ref": "refs/heads/main",
+        "head": "002a711710263c9f0068ce80a679f04f369b856f",
+        "before": "49631a42612b00302568070191de114412900169"
+      },
+      "public": true,
+      "created_at": "2026-02-23T13:21:04Z"
+    },
+    {
+      "id": "8711402932",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1164654125,
+        "name": "Zeelkundariya/Node-Assignment",
+        "url": "https://api.github.com/repos/Zeelkundariya/Node-Assignment"
+      },
+      "payload": {
+        "repository_id": 1164654125,
+        "push_id": 31006084751,
+        "ref": "refs/heads/main",
+        "head": "49631a42612b00302568070191de114412900169",
+        "before": "421cbd795e01ce94cfa9e06884cc8de9f6d3fbfb"
+      },
+      "public": true,
+      "created_at": "2026-02-23T13:09:48Z"
+    },
+    {
+      "id": "8711347897",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1164654125,
+        "name": "Zeelkundariya/Node-Assignment",
+        "url": "https://api.github.com/repos/Zeelkundariya/Node-Assignment"
+      },
+      "payload": {
+        "repository_id": 1164654125,
+        "push_id": 31006029692,
+        "ref": "refs/heads/main",
+        "head": "421cbd795e01ce94cfa9e06884cc8de9f6d3fbfb",
+        "before": "e36082181b44533ee8e02e5583f4b43ecf9927e8"
+      },
+      "public": true,
+      "created_at": "2026-02-23T13:08:04Z"
+    },
+    {
+      "id": "8706646631",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1164654125,
+        "name": "Zeelkundariya/Node-Assignment",
+        "url": "https://api.github.com/repos/Zeelkundariya/Node-Assignment"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": "student-cgpa-api : https://node-assignment-1jav.onrender.com      e-commerce-product-api : https://node-assignment-4-izgr.onrender.comhttps://node-assignment-3-1hpo.onrender.com   state-statistics-management-api: ",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-02-23T10:33:37Z"
+    },
+    {
+      "id": "8706020855",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1034372264,
+        "name": "Zeelkundariya/CGxSU_Semester_1",
+        "url": "https://api.github.com/repos/Zeelkundariya/CGxSU_Semester_1"
+      },
+      "payload": {
+        "repository_id": 1034372264,
+        "push_id": 31000716189,
+        "ref": "refs/heads/main",
+        "head": "d11ff9bb028c9b33c142ecb74bf68028250c4854",
+        "before": "ba691b1580a51c58ecd871114dcab2b92e93300e"
+      },
+      "public": true,
+      "created_at": "2026-02-23T10:12:58Z"
+    },
+    {
+      "id": "8699239046",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1163918494,
+        "name": "Zeelkundariya/AI-Chatbot",
+        "url": "https://api.github.com/repos/Zeelkundariya/AI-Chatbot"
+      },
+      "payload": {
+        "repository_id": 1163918494,
+        "push_id": 30993936648,
+        "ref": "refs/heads/main",
+        "head": "d27f099503d4f73e5c4675eee5e231e395ba797d",
+        "before": "b75d542e9ccf7570582126eb3dfcba254bbe926b"
+      },
+      "public": true,
+      "created_at": "2026-02-23T05:33:24Z"
+    },
+    {
+      "id": "8697237644",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1163918494,
+        "name": "Zeelkundariya/AI-Chatbot",
+        "url": "https://api.github.com/repos/Zeelkundariya/AI-Chatbot"
+      },
+      "payload": {
+        "repository_id": 1163918494,
+        "push_id": 30991936494,
+        "ref": "refs/heads/main",
+        "head": "b75d542e9ccf7570582126eb3dfcba254bbe926b",
+        "before": "2b9e4a027e9e3d0aeadc85f9118e91104b2da067"
+      },
+      "public": true,
+      "created_at": "2026-02-23T03:35:53Z"
+    },
+    {
+      "id": "8686505690",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1163918494,
+        "name": "Zeelkundariya/AI-Chatbot",
+        "url": "https://api.github.com/repos/Zeelkundariya/AI-Chatbot"
+      },
+      "payload": {
+        "repository_id": 1163918494,
+        "push_id": 30981197043,
+        "ref": "refs/heads/main",
+        "head": "2b9e4a027e9e3d0aeadc85f9118e91104b2da067",
+        "before": "d4e4c33cbcedc321917ca062263bc81ddefa3721"
+      },
+      "public": true,
+      "created_at": "2026-02-22T16:28:12Z"
+    },
+    {
+      "id": "8686321835",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1163918494,
+        "name": "Zeelkundariya/AI-Chatbot",
+        "url": "https://api.github.com/repos/Zeelkundariya/AI-Chatbot"
+      },
+      "payload": {
+        "repository_id": 1163918494,
+        "push_id": 30981012929,
+        "ref": "refs/heads/main",
+        "head": "d4e4c33cbcedc321917ca062263bc81ddefa3721",
+        "before": "827fe51d26215a75b5a194a742b4e0dfe89ab789"
+      },
+      "public": true,
+      "created_at": "2026-02-22T16:17:03Z"
+    },
+    {
+      "id": "8685650208",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1163918494,
+        "name": "Zeelkundariya/AI-Chatbot",
+        "url": "https://api.github.com/repos/Zeelkundariya/AI-Chatbot"
+      },
+      "payload": {
+        "repository_id": 1163918494,
+        "push_id": 30980340471,
+        "ref": "refs/heads/main",
+        "head": "827fe51d26215a75b5a194a742b4e0dfe89ab789",
+        "before": "dc23aa58fc27a1a13b7d4c128622cb0141ea612e"
+      },
+      "public": true,
+      "created_at": "2026-02-22T15:36:26Z"
+    },
+    {
+      "id": "8684609520",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1163918494,
+        "name": "Zeelkundariya/AI-Chatbot",
+        "url": "https://api.github.com/repos/Zeelkundariya/AI-Chatbot"
+      },
+      "payload": {
+        "repository_id": 1163918494,
+        "push_id": 30979298669,
+        "ref": "refs/heads/main",
+        "head": "dc23aa58fc27a1a13b7d4c128622cb0141ea612e",
+        "before": "11988e47d231bc2befb5c9dbdcc33f7cbf687709"
+      },
+      "public": true,
+      "created_at": "2026-02-22T14:32:44Z"
+    },
+    {
+      "id": "8682057760",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1163918494,
+        "name": "Zeelkundariya/AI-Chatbot",
+        "url": "https://api.github.com/repos/Zeelkundariya/AI-Chatbot"
+      },
+      "payload": {
+        "repository_id": 1163918494,
+        "push_id": 30976745249,
+        "ref": "refs/heads/main",
+        "head": "11988e47d231bc2befb5c9dbdcc33f7cbf687709",
+        "before": "7ce204f37cc1e2228d1ab0df3968355680db83fb"
+      },
+      "public": true,
+      "created_at": "2026-02-22T11:51:10Z"
+    },
+    {
+      "id": "8681454400",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1163918494,
+        "name": "Zeelkundariya/AI-Chatbot",
+        "url": "https://api.github.com/repos/Zeelkundariya/AI-Chatbot"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": "Study Bot Elite: An advanced, cross-platform AI Study Assistant powered by Llama-3, LangChain, and FastAPI. Features conversational memory, PDF-based RAG, interactive step-by-step quizzes, and a premium glassmorphism UI. Web & Mobile parity.",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-02-22T11:07:47Z"
+    },
+    {
+      "id": "8659010598",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1162700375,
+        "name": "Zeelkundariya/HackXtreme-github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/HackXtreme-github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1162700375,
+        "push_id": 30953892869,
+        "ref": "refs/heads/main",
+        "head": "258b1208b7fb88bbabf302b9e5d139d4f9b0c527",
+        "before": "32aa903e54b80eb94d1cb5ecb91de218e4e0429f"
+      },
+      "public": true,
+      "created_at": "2026-02-21T07:53:02Z"
+    },
+    {
+      "id": "8656741329",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1162700375,
+        "name": "Zeelkundariya/HackXtreme-github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/HackXtreme-github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1162700375,
+        "push_id": 30951625366,
+        "ref": "refs/heads/main",
+        "head": "32aa903e54b80eb94d1cb5ecb91de218e4e0429f",
+        "before": "fa742bb606330224a4977966b090496d786b1c87"
+      },
+      "public": true,
+      "created_at": "2026-02-21T04:53:18Z"
+    },
+    {
+      "id": "8656694991",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1162700375,
+        "name": "Zeelkundariya/HackXtreme-github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/HackXtreme-github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1162700375,
+        "push_id": 30951579058,
+        "ref": "refs/heads/main",
+        "head": "fa742bb606330224a4977966b090496d786b1c87",
+        "before": "79851130b0321b7b6cc5b895180f48221daac34d"
+      },
+      "public": true,
+      "created_at": "2026-02-21T04:49:28Z"
+    },
+    {
+      "id": "8656644307",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1162700375,
+        "name": "Zeelkundariya/HackXtreme-github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/HackXtreme-github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1162700375,
+        "push_id": 30951528294,
+        "ref": "refs/heads/main",
+        "head": "79851130b0321b7b6cc5b895180f48221daac34d",
+        "before": "40c9a12ade749334d88a3fe45d9df1cfda503a78"
+      },
+      "public": true,
+      "created_at": "2026-02-21T04:45:06Z"
+    },
+    {
+      "id": "8656173410",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1162700375,
+        "name": "Zeelkundariya/HackXtreme-github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/HackXtreme-github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1162700375,
+        "push_id": 30951057073,
+        "ref": "refs/heads/main",
+        "head": "40c9a12ade749334d88a3fe45d9df1cfda503a78",
+        "before": "ea751d8c88c7e7070266a14b10cfc1e977853cab"
+      },
+      "public": true,
+      "created_at": "2026-02-21T04:05:55Z"
+    },
+    {
+      "id": "8656137659",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1162700375,
+        "name": "Zeelkundariya/HackXtreme-github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/HackXtreme-github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1162700375,
+        "push_id": 30951021282,
+        "ref": "refs/heads/main",
+        "head": "ea751d8c88c7e7070266a14b10cfc1e977853cab",
+        "before": "4968f0ee3c0a0bab201f8a385bca028bdc52a945"
+      },
+      "public": true,
+      "created_at": "2026-02-21T04:03:03Z"
+    },
+    {
+      "id": "8641922077",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1162700375,
+        "name": "Zeelkundariya/HackXtreme-github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/HackXtreme-github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1162700375,
+        "push_id": 30936805483,
+        "ref": "refs/heads/main",
+        "head": "4968f0ee3c0a0bab201f8a385bca028bdc52a945",
+        "before": "2337a64c3ae1316e1a49ee81a0afac685da90bc4"
+      },
+      "public": true,
+      "created_at": "2026-02-20T16:29:18Z"
+    },
+    {
+      "id": "8640644526",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1162700375,
+        "name": "Zeelkundariya/HackXtreme-github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/HackXtreme-github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1162700375,
+        "push_id": 30935277747,
+        "ref": "refs/heads/main",
+        "head": "2337a64c3ae1316e1a49ee81a0afac685da90bc4",
+        "before": "241f6d92d60c91a6b783d23330a5d9408eb54908"
+      },
+      "public": true,
+      "created_at": "2026-02-20T15:38:46Z"
+    },
+    {
+      "id": "8640516848",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1162700375,
+        "name": "Zeelkundariya/HackXtreme-github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/HackXtreme-github-portfolio-analyzer"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": "AI-driven technical auditing engine that deconstructs your GitHub engineering DNA. Turn silent repositories into recruiter-ready proof with deterministic scoring, interactive AI recruiter simulations, and high-fidelity architectural gap analysis. 🚀💎",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-02-20T15:33:27Z"
+    },
+    {
+      "id": "8599064863",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1161724409,
+        "name": "Zeelkundariya/Zeelkundariya-github-portfolio-analyzer-ready",
+        "url": "https://api.github.com/repos/Zeelkundariya/Zeelkundariya-github-portfolio-analyzer-ready"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": null,
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-02-19T12:52:13Z"
+    },
+    {
+      "id": "8596596251",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30891639861,
+        "ref": "refs/heads/main",
+        "head": "0e7fcdac8d1fd037f9b20a50cfcec921aa559cbd",
+        "before": "aaa7dbaf156cb148446064ccbb1dda0a2504335f"
+      },
+      "public": true,
+      "created_at": "2026-02-19T11:28:23Z"
+    },
+    {
+      "id": "8596445450",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30891491162,
+        "ref": "refs/heads/main",
+        "head": "aaa7dbaf156cb148446064ccbb1dda0a2504335f",
+        "before": "de877b5765cd48ec34b6cbdd514a492399080b45"
+      },
+      "public": true,
+      "created_at": "2026-02-19T11:23:07Z"
+    },
+    {
+      "id": "8587409577",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30882367863,
+        "ref": "refs/heads/main",
+        "head": "de877b5765cd48ec34b6cbdd514a492399080b45",
+        "before": "ac0e3d920542a7942af1dbe6b636aa5c01ba07d9"
+      },
+      "public": true,
+      "created_at": "2026-02-19T05:30:13Z"
+    },
+    {
+      "id": "8586212260",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30881171129,
+        "ref": "refs/heads/main",
+        "head": "ac0e3d920542a7942af1dbe6b636aa5c01ba07d9",
+        "before": "200e1b08dc0aad614249b0a2dc65ff3f0156cdc6"
+      },
+      "public": true,
+      "created_at": "2026-02-19T04:27:08Z"
+    },
+    {
+      "id": "8525335709",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1159725005,
+        "name": "Zeelkundariya/Hackathon-projects-all",
+        "url": "https://api.github.com/repos/Zeelkundariya/Hackathon-projects-all"
+      },
+      "payload": {
+        "repository_id": 1159725005,
+        "push_id": 30820313824,
+        "ref": "refs/heads/main",
+        "head": "e070a41a0084e8132214fdef81fa7f5c2c343333",
+        "before": "615a0924e3ced7cbb2280b0fba638dd8afc35214"
+      },
+      "public": true,
+      "created_at": "2026-02-17T12:19:56Z"
+    },
+    {
+      "id": "8522796651",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1159906189,
+        "name": "Zeelkundariya/Neelsir-Task",
+        "url": "https://api.github.com/repos/Zeelkundariya/Neelsir-Task"
+      },
+      "payload": {
+        "repository_id": 1159906189,
+        "push_id": 30817675013,
+        "ref": "refs/heads/master",
+        "head": "56bf97339de934e3c432ef376de604c938166ad8",
+        "before": "ae5f276b0826e21daa1c1d26c39793b7a0c767c8"
+      },
+      "public": true,
+      "created_at": "2026-02-17T10:48:56Z"
+    },
+    {
+      "id": "8522615727",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1159906189,
+        "name": "Zeelkundariya/Neelsir-Task",
+        "url": "https://api.github.com/repos/Zeelkundariya/Neelsir-Task"
+      },
+      "payload": {
+        "repository_id": 1159906189,
+        "push_id": 30817600705,
+        "ref": "refs/heads/master",
+        "head": "ae5f276b0826e21daa1c1d26c39793b7a0c767c8",
+        "before": "1b28673dc0033df522aab9f3f9debbfe7201154a"
+      },
+      "public": true,
+      "created_at": "2026-02-17T10:46:20Z"
+    },
+    {
+      "id": "8521863491",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1159906189,
+        "name": "Zeelkundariya/Neelsir-Task",
+        "url": "https://api.github.com/repos/Zeelkundariya/Neelsir-Task"
+      },
+      "payload": {
+        "repository_id": 1159906189,
+        "push_id": 30816822283,
+        "ref": "refs/heads/master",
+        "head": "1b28673dc0033df522aab9f3f9debbfe7201154a",
+        "before": "9bef9afc7d8bdb6730c429283e3739b3c8b952aa"
+      },
+      "public": true,
+      "created_at": "2026-02-17T10:19:49Z"
+    },
+    {
+      "id": "8521660815",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1159906189,
+        "name": "Zeelkundariya/Neelsir-Task",
+        "url": "https://api.github.com/repos/Zeelkundariya/Neelsir-Task"
+      },
+      "payload": {
+        "ref": "master",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/master",
+        "master_branch": "master",
+        "description": null,
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-02-17T10:13:28Z"
+    },
+    {
+      "id": "8515661852",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1154179441,
+        "name": "Zeelkundariya/AI-Risk-Scanner",
+        "url": "https://api.github.com/repos/Zeelkundariya/AI-Risk-Scanner"
+      },
+      "payload": {
+        "repository_id": 1154179441,
+        "push_id": 30810632837,
+        "ref": "refs/heads/main",
+        "head": "67db6da119a0273ce052929529037e13e75a2b52",
+        "before": "f6012be6831701f65dc89a74286823d450f68022"
+      },
+      "public": true,
+      "created_at": "2026-02-17T06:16:29Z"
+    },
+    {
+      "id": "8515564240",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1154179441,
+        "name": "Zeelkundariya/AI-Risk-Scanner",
+        "url": "https://api.github.com/repos/Zeelkundariya/AI-Risk-Scanner"
+      },
+      "payload": {
+        "repository_id": 1154179441,
+        "push_id": 30810535202,
+        "ref": "refs/heads/main",
+        "head": "f6012be6831701f65dc89a74286823d450f68022",
+        "before": "5d92106457f620fed4a9f2fcf5c11f663ec6b4c2"
+      },
+      "public": true,
+      "created_at": "2026-02-17T06:11:44Z"
+    },
+    {
+      "id": "8515211829",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1159725005,
+        "name": "Zeelkundariya/Hackathon-projects-all",
+        "url": "https://api.github.com/repos/Zeelkundariya/Hackathon-projects-all"
+      },
+      "payload": {
+        "repository_id": 1159725005,
+        "push_id": 30810182773,
+        "ref": "refs/heads/main",
+        "head": "615a0924e3ced7cbb2280b0fba638dd8afc35214",
+        "before": "8d3e516df402d34b951a8f45647dc54b6245c0e9"
+      },
+      "public": true,
+      "created_at": "2026-02-17T05:55:32Z"
+    },
+    {
+      "id": "8513880239",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1159725005,
+        "name": "Zeelkundariya/Hackathon-projects-all",
+        "url": "https://api.github.com/repos/Zeelkundariya/Hackathon-projects-all"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": "A comprehensive portfolio of hackathon-winning projects leveraging AI, industrial optimization, and modern web frameworks.",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-02-17T04:41:58Z"
+    },
+    {
+      "id": "8513820494",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1111785893,
+        "name": "Zeelkundariya/Hackathon-projects",
+        "url": "https://api.github.com/repos/Zeelkundariya/Hackathon-projects"
+      },
+      "payload": {
+        "repository_id": 1111785893,
+        "push_id": 30808790252,
+        "ref": "refs/heads/main",
+        "head": "12788cb2974fb40f2c2af0209aa8dc083bb970bf",
+        "before": "7f1719caab0030cd4cb29723854449de90793488"
+      },
+      "public": true,
+      "created_at": "2026-02-17T04:38:18Z"
+    },
+    {
+      "id": "8493565665",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30788533166,
+        "ref": "refs/heads/main",
+        "head": "200e1b08dc0aad614249b0a2dc65ff3f0156cdc6",
+        "before": "956bb8d37be37eac9edf92275dd98ceaea7e0532"
+      },
+      "public": true,
+      "created_at": "2026-02-16T13:15:26Z"
+    },
+    {
+      "id": "8492992389",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30787960623,
+        "ref": "refs/heads/main",
+        "head": "956bb8d37be37eac9edf92275dd98ceaea7e0532",
+        "before": "212973bd16f5fb6ffb871e8e97a71aca43145dfa"
+      },
+      "public": true,
+      "created_at": "2026-02-16T12:56:56Z"
+    },
+    {
+      "id": "8492772150",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30787740794,
+        "ref": "refs/heads/main",
+        "head": "212973bd16f5fb6ffb871e8e97a71aca43145dfa",
+        "before": "8a84cca220ee5eacce3b0cd2323bf99e66fe003c"
+      },
+      "public": true,
+      "created_at": "2026-02-16T12:49:34Z"
+    },
+    {
+      "id": "8492311069",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30787279371,
+        "ref": "refs/heads/main",
+        "head": "8a84cca220ee5eacce3b0cd2323bf99e66fe003c",
+        "before": "c61bea70f1122c270702bc46774ecb8afe787688"
+      },
+      "public": true,
+      "created_at": "2026-02-16T12:33:56Z"
+    },
+    {
+      "id": "8492233279",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30787201427,
+        "ref": "refs/heads/main",
+        "head": "c61bea70f1122c270702bc46774ecb8afe787688",
+        "before": "b7c75ac4399b0e1ace10a71e7587e466fe7fd281"
+      },
+      "public": true,
+      "created_at": "2026-02-16T12:31:17Z"
+    },
+    {
+      "id": "8491875780",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30786843652,
+        "ref": "refs/heads/main",
+        "head": "b7c75ac4399b0e1ace10a71e7587e466fe7fd281",
+        "before": "acd6c0b84c422c7e28f0f1107b252875aae7fdd4"
+      },
+      "public": true,
+      "created_at": "2026-02-16T12:18:43Z"
+    },
+    {
+      "id": "8490100797",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30785068422,
+        "ref": "refs/heads/main",
+        "head": "acd6c0b84c422c7e28f0f1107b252875aae7fdd4",
+        "before": "158e41bd6d0a5e94a7d0981fb753f3bedae00167"
+      },
+      "public": true,
+      "created_at": "2026-02-16T11:14:22Z"
+    },
+    {
+      "id": "8489679238",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30784645938,
+        "ref": "refs/heads/main",
+        "head": "158e41bd6d0a5e94a7d0981fb753f3bedae00167",
+        "before": "d18d7dce7ef2e73e20d3da8001827e048738522f"
+      },
+      "public": true,
+      "created_at": "2026-02-16T11:00:04Z"
+    },
+    {
+      "id": "8489547589",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30784514039,
+        "ref": "refs/heads/main",
+        "head": "d18d7dce7ef2e73e20d3da8001827e048738522f",
+        "before": "fcca167ac982bd75184ba69bff72cd53e4d95b09"
+      },
+      "public": true,
+      "created_at": "2026-02-16T10:55:41Z"
+    },
+    {
+      "id": "8482039230",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1034372264,
+        "name": "Zeelkundariya/CGxSU_Semester_1",
+        "url": "https://api.github.com/repos/Zeelkundariya/CGxSU_Semester_1"
+      },
+      "payload": {
+        "repository_id": 1034372264,
+        "push_id": 30777004532,
+        "ref": "refs/heads/main",
+        "head": "ba691b1580a51c58ecd871114dcab2b92e93300e",
+        "before": "0752b2dd907704b8b87d260cde44f374f87eb647"
+      },
+      "public": true,
+      "created_at": "2026-02-16T05:45:14Z"
+    },
+    {
+      "id": "8430704229",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30725151954,
+        "ref": "refs/heads/main",
+        "head": "fcca167ac982bd75184ba69bff72cd53e4d95b09",
+        "before": "e2c08a9791a2461c0f253954b168d2e3af76fdb2"
+      },
+      "public": true,
+      "created_at": "2026-02-13T18:51:55Z"
+    },
+    {
+      "id": "8430069966",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1034372264,
+        "name": "Zeelkundariya/CGxSU_Semester_1",
+        "url": "https://api.github.com/repos/Zeelkundariya/CGxSU_Semester_1"
+      },
+      "payload": {
+        "repository_id": 1034372264,
+        "push_id": 30725215725,
+        "ref": "refs/heads/main",
+        "head": "0752b2dd907704b8b87d260cde44f374f87eb647",
+        "before": "034c60c523d2d543d75f9d38b5461df1b52a94f2"
+      },
+      "public": true,
+      "created_at": "2026-02-13T18:54:15Z"
+    },
+    {
+      "id": "8429964431",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30725115523,
+        "ref": "refs/heads/main",
+        "head": "e2c08a9791a2461c0f253954b168d2e3af76fdb2",
+        "before": "cd38313badf860976d4a1ddaee45efd1e95368c9"
+      },
+      "public": true,
+      "created_at": "2026-02-13T18:50:35Z"
+    },
+    {
+      "id": "8429488054",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30724647454,
+        "ref": "refs/heads/main",
+        "head": "cd38313badf860976d4a1ddaee45efd1e95368c9",
+        "before": "7dd88a051b0a177a5aa465dddaa72827aec45ac9"
+      },
+      "public": true,
+      "created_at": "2026-02-13T18:33:19Z"
+    },
+    {
+      "id": "8428912338",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "repository_id": 1156860400,
+        "push_id": 30724075834,
+        "ref": "refs/heads/main",
+        "head": "7dd88a051b0a177a5aa465dddaa72827aec45ac9",
+        "before": "c5fce671d8ae84a3476ae17ebf96c14dab8c6686"
+      },
+      "public": true,
+      "created_at": "2026-02-13T18:12:02Z"
+    },
+    {
+      "id": "8408913835",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1156860400,
+        "name": "Zeelkundariya/github-portfolio-analyzer",
+        "url": "https://api.github.com/repos/Zeelkundariya/github-portfolio-analyzer"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": "A professional-grade GitHub auditing platform that transforms contribution data into a high-density Engineering Signal. Benchmarks profiles against Big Tech standards using AI-driven gap analysis and tactical revival plans.",
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-02-13T06:10:56Z"
+    },
+    {
+      "id": "8406199975",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1034372264,
+        "name": "Zeelkundariya/CGxSU_Semester_1",
+        "url": "https://api.github.com/repos/Zeelkundariya/CGxSU_Semester_1"
+      },
+      "payload": {
+        "repository_id": 1034372264,
+        "push_id": 30701141169,
+        "ref": "refs/heads/main",
+        "head": "034c60c523d2d543d75f9d38b5461df1b52a94f2",
+        "before": "452c6908f676b00e69203450ea77d5f36edb2ce2"
+      },
+      "public": true,
+      "created_at": "2026-02-13T03:49:35Z"
+    },
+    {
+      "id": "8371301981",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1034372264,
+        "name": "Zeelkundariya/CGxSU_Semester_1",
+        "url": "https://api.github.com/repos/Zeelkundariya/CGxSU_Semester_1"
+      },
+      "payload": {
+        "repository_id": 1034372264,
+        "push_id": 30666272816,
+        "ref": "refs/heads/main",
+        "head": "452c6908f676b00e69203450ea77d5f36edb2ce2",
+        "before": "6339374e0b1a2aa5abe42c7d6598449bf31e72f0"
+      },
+      "public": true,
+      "created_at": "2026-02-12T06:19:47Z"
+    },
+    {
+      "id": "8368637779",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1034372264,
+        "name": "Zeelkundariya/CGxSU_Semester_1",
+        "url": "https://api.github.com/repos/Zeelkundariya/CGxSU_Semester_1"
+      },
+      "payload": {
+        "repository_id": 1034372264,
+        "push_id": 30663607970,
+        "ref": "refs/heads/main",
+        "head": "6339374e0b1a2aa5abe42c7d6598449bf31e72f0",
+        "before": "33e383eee80c7a4ee76626e03d4a3ea18c6af375"
+      },
+      "public": true,
+      "created_at": "2026-02-12T04:03:35Z"
+    },
+    {
+      "id": "8304385253",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1034372264,
+        "name": "Zeelkundariya/CGxSU_Semester_1",
+        "url": "https://api.github.com/repos/Zeelkundariya/CGxSU_Semester_1"
+      },
+      "payload": {
+        "repository_id": 1034372264,
+        "push_id": 30599770159,
+        "ref": "refs/heads/main",
+        "head": "33e383eee80c7a4ee76626e03d4a3ea18c6af375",
+        "before": "0dae9ff6ac947aa39dd6de20cfc2d92da19905cd"
+      },
+      "public": true,
+      "created_at": "2026-02-10T11:21:32Z"
+    },
+    {
+      "id": "8298700238",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1034372264,
+        "name": "Zeelkundariya/CGxSU_Semester_1",
+        "url": "https://api.github.com/repos/Zeelkundariya/CGxSU_Semester_1"
+      },
+      "payload": {
+        "repository_id": 1034372264,
+        "push_id": 30593696040,
+        "ref": "refs/heads/main",
+        "head": "0dae9ff6ac947aa39dd6de20cfc2d92da19905cd",
+        "before": "0cb9910a203363d3e7ca20c4222870c55781fb68"
+      },
+      "public": true,
+      "created_at": "2026-02-10T07:56:37Z"
+    },
+    {
+      "id": "8294993516",
+      "type": "CreateEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1154179441,
+        "name": "Zeelkundariya/AI-Risk-Scanner",
+        "url": "https://api.github.com/repos/Zeelkundariya/AI-Risk-Scanner"
+      },
+      "payload": {
+        "ref": "main",
+        "ref_type": "branch",
+        "full_ref": "refs/heads/main",
+        "master_branch": "main",
+        "description": null,
+        "pusher_type": "user"
+      },
+      "public": true,
+      "created_at": "2026-02-10T05:08:41Z"
+    },
+    {
+      "id": "8218487613",
+      "type": "PushEvent",
+      "actor": {
+        "id": 225349981,
+        "login": "Zeelkundariya",
+        "display_login": "Zeelkundariya",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Zeelkundariya",
+        "avatar_url": "https://avatars.githubusercontent.com/u/225349981?"
+      },
+      "repo": {
+        "id": 1034372264,
+        "name": "Zeelkundariya/CGxSU_Semester_1",
+        "url": "https://api.github.com/repos/Zeelkundariya/CGxSU_Semester_1"
+      },
+      "payload": {
+        "repository_id": 1034372264,
+        "push_id": 30513433496,
+        "ref": "refs/heads/main",
+        "head": "0cb9910a203363d3e7ca20c4222870c55781fb68",
+        "before": "934d1b03b64f98e7cce4a0bb59dcae45e00e2641"
+      },
+      "public": true,
+      "created_at": "2026-02-07T03:42:50Z"
+    }
+  ]
+}

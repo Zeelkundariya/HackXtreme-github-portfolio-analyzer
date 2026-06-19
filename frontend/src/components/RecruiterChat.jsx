@@ -39,10 +39,12 @@ const RecruiterChat = ({ username, context }) => {
             const data = await res.json();
             if (data.reply) {
                 setMessages([...newMessages, { role: 'model', content: data.reply }]);
+            } else {
+                setMessages([...newMessages, { role: 'model', content: "I'm having trouble processing that right now. Can you tell me more about your architectural approach?" }]);
             }
         } catch (err) {
             console.error("Chat Error:", err);
-            setMessages([...newMessages, { role: 'model', content: "Sorry, I lost my connection to the server. Let's try again in a moment." }]);
+            setMessages([...newMessages, { role: 'model', content: "The technical audit engine is currently offline. Please check your connection and try again." }]);
         } finally {
             setLoading(false);
         }

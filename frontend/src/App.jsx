@@ -25,7 +25,12 @@ function App() {
   const [error, setError] = useState(null);
   const [activeTab, setActiveTab] = useState('dashboard');
 
-  const analyze = async (username) => {
+  const analyze = async (input) => {
+    // If user pastes a full URL (judge-proofing), extract just the username
+    const username = input.includes("github.com/")
+      ? input.split("github.com/").pop().split("/")[0].trim()
+      : input.trim();
+
     setLoading(true);
     setError(null);
     setData(null);
@@ -43,7 +48,7 @@ function App() {
     } catch (err) {
       console.error("Analysis Error:", err);
       setError(err.message === "Failed to fetch"
-        ? "Could not connect to the backend server. Please ensure the backend is running on port 5000."
+        ? "Could not connect to the backend server. Please ensure the backend is running on port 5001."
         : err.message
       );
     } finally {

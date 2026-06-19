@@ -7,7 +7,7 @@ export default defineConfig({
     server: {
         host: '0.0.0.0',
         proxy: {
-            '/analyze': 'http://127.0.0.1:5000'
+            '/analyze': 'http://127.0.0.1:5001'
         }
     }
 })
