@@ -40,7 +40,7 @@ export function calculateScore(user, repos, events = []) {
 
   originalRepos.forEach(repo => {
     if (repo.description) hasDescriptions++;
-    if (repo.homepage) hasHomepage++;
+    if (repo.homepage && repo.homepage.startsWith('http')) hasHomepage++;
     if (repo.topics && repo.topics.length > 0) hasTopics++;
     totalStars += repo.stargazers_count;
   });
@@ -454,26 +454,24 @@ function generateRepoFeedback(repos) {
 
 function getDemoRepos(repos) {
   return repos
-    .filter(r => !r.fork && (r.homepage || r.name.toLowerCase().includes('clone')))
+    .filter(r => !r.fork && r.homepage && r.homepage.startsWith('http'))
     .map(r => {
-      let host = "GitHub";
-      if (r.homepage) {
-        if (r.homepage.includes("vercel")) host = "Vercel";
-        else if (r.homepage.includes("netlify")) host = "Netlify";
-        else if (r.homepage.includes("github.io")) host = "GitHub Pages";
-        else if (r.homepage.includes("heroku")) host = "Heroku";
-      }
+      let host = "External";
+      if (r.homepage.includes("vercel")) host = "Vercel";
+      else if (r.homepage.includes("netlify")) host = "Netlify";
+      else if (r.homepage.includes("github.io")) host = "GitHub Pages";
+      else if (r.homepage.includes("heroku")) host = "Heroku";
+      else if (r.homepage.includes("onrender")) host = "Render";
 
       return {
         name: r.name,
         url: r.html_url,
-        demo: r.homepage || r.html_url, // Fallback to repo URL if no demo link provided
-        desc: r.description || "Project featuring multiple website clones and live demos.",
-        host: r.homepage ? host : "Live Demo via Repo"
+        demo: r.homepage,
+        desc: r.description || "Project with a live demo.",
+        host
       };
     })
     .sort((a, b) => {
-      // Prioritize WEBSITE-CLONE at the top
       if (a.name === "WEBSITE-CLONE") return -1;
       if (b.name === "WEBSITE-CLONE") return 1;
       return 0;
