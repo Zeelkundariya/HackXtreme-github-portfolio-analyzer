@@ -49,8 +49,11 @@ export function calculateScore(user, repos, events = []) {
     if (hasDescriptions / originalRepos.length > 0.8) { score += 5; strengths.push("Most repos have descriptions"); }
     else if (hasDescriptions / originalRepos.length < 0.5) {
       const missingDesc = originalRepos.filter(r => !r.description).map(r => r.name);
-      const repoList = missingDesc.slice(0, 3).join(', ') + (missingDesc.length > 3 ? '...' : '');
-      redFlags.push(`Missing descriptions in: ${repoList}`);
+      let repoText = missingDesc.slice(0, 2).join(', ');
+      if (missingDesc.length > 2) {
+        repoText += `, and ${missingDesc.length - 2} more`;
+      }
+      redFlags.push(`Missing descriptions in: ${repoText}`);
     }
 
     if (hasHomepage > 0) { score += 5; strengths.push(`Live demos available (${hasHomepage} repos)`); }
