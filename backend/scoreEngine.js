@@ -47,7 +47,11 @@ export function calculateScore(user, repos, events = []) {
 
   if (originalRepos.length > 0) {
     if (hasDescriptions / originalRepos.length > 0.8) { score += 5; strengths.push("Most repos have descriptions"); }
-    else if (hasDescriptions / originalRepos.length < 0.5) redFlags.push("Many repos lack descriptions");
+    else if (hasDescriptions / originalRepos.length < 0.5) {
+      const missingDesc = originalRepos.filter(r => !r.description).map(r => r.name);
+      const repoList = missingDesc.slice(0, 3).join(', ') + (missingDesc.length > 3 ? '...' : '');
+      redFlags.push(`Missing descriptions in: ${repoList}`);
+    }
 
     if (hasHomepage > 0) { score += 5; strengths.push(`Live demos available (${hasHomepage} repos)`); }
     if (hasTopics / originalRepos.length > 0.5) { score += 5; } // Good discoverability
@@ -283,7 +287,7 @@ export function calculateScore(user, repos, events = []) {
           stars: r.stargazers_count,
           forks: r.forks_count,
           size: r.size, // in KB
-          recentCommits: Math.max(stats.commits, stats.events > 0 ? 1 : 0), // Fallback to 1 if we see events
+          recentCommits: r.total_commits || Math.max(stats.commits, stats.events > 0 ? 1 : 0), // Use exact total_commits if available
           updated_at: r.updated_at,
           description: r.description || "No description provided.",
           isFork: r.fork,

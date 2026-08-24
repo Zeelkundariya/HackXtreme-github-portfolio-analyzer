@@ -39,7 +39,40 @@ export async function fetchRepos(username) {
     username,
     per_page: 100
   }));
-  return res.data;
+  const repos = res.data;
+  
+  const batchSize = 10;
+  for (let i = 0; i < repos.length; i += batchSize) {
+    const batch = repos.slice(i, i + batchSize);
+    await Promise.allSettled(batch.map(async (repo) => {
+      if (repo.fork) {
+        repo.total_commits = 0;
+        return;
+      }
+      try {
+        const commitRes = await octokit.request('GET /repos/{owner}/{repo}/commits', {
+          owner: repo.owner.login,
+          repo: repo.name,
+          per_page: 1
+        });
+        const link = commitRes.headers.link;
+        if (link) {
+          const match = link.match(/page=(\d+)>; rel="last"/);
+          if (match) {
+            repo.total_commits = parseInt(match[1], 10);
+          } else {
+            repo.total_commits = 1; 
+          }
+        } else {
+          repo.total_commits = commitRes.data.length || 0; 
+        }
+      } catch (e) {
+        repo.total_commits = 0;
+      }
+    }));
+  }
+  
+  return repos;
 }
 
 export async function fetchEvents(username) {
