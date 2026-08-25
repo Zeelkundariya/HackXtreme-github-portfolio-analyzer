@@ -49,11 +49,7 @@ export function calculateScore(user, repos, events = []) {
     if (hasDescriptions / originalRepos.length > 0.8) { score += 5; strengths.push("Most repos have descriptions"); }
     else if (hasDescriptions / originalRepos.length < 0.5) {
       const missingDesc = originalRepos.filter(r => !r.description).map(r => r.name);
-      let repoText = missingDesc.slice(0, 2).join(', ');
-      if (missingDesc.length > 2) {
-        repoText += `, and ${missingDesc.length - 2} more`;
-      }
-      redFlags.push(`Missing descriptions in: ${repoText}`);
+      redFlags.push(`Missing descriptions in: ${missingDesc.join(', ')}`);
     }
 
     if (hasHomepage > 0) { score += 5; strengths.push(`Live demos available (${hasHomepage} repos)`); }
@@ -332,14 +328,18 @@ function calculateTechStack(repos) {
     'vue', 'angular', 'nextjs', 'tailwindcss', 'mongodb', 'postgresql', 'vite', 'ui/ux',
     'sql', 'nosql', 'java', 'spring', 'kotlin', 'android', 'swift', 'ios', 'flutter', 'redux', 'graphql',
     'rest api', 'jest', 'cypress', 'webpack', 'babel', 'bootstrap', 'material-ui', 'shadcn', 'prisma', 'sequelize'
-  ]; // Filtered out: git, figma, firebase, github
+  ];
 
   repos.forEach(r => {
+    if (r.fork) return; // Only count original repos for tech stack
+    
+    const repoTechs = new Set();
+    
     // 1. Primary Language
     if (r.language) {
       const lang = r.language.toLowerCase();
       if (!['git', 'figma', 'firebase', 'github'].includes(lang)) {
-        skills[lang] = (skills[lang] || 0) + 1;
+        repoTechs.add(lang);
       }
     }
 
@@ -348,7 +348,7 @@ function calculateTechStack(repos) {
       r.topics.forEach(t => {
         const topic = t.toLowerCase();
         if (techWhitelist.includes(topic)) {
-          skills[topic] = (skills[topic] || 0) + 1;
+          repoTechs.add(topic);
         }
       });
     }
@@ -356,16 +356,22 @@ function calculateTechStack(repos) {
     // 3. Smart Extraction from Name/Description
     const content = (r.name + " " + (r.description || "")).toLowerCase();
     techWhitelist.forEach(tech => {
-      if (content.includes(tech)) {
-        skills[tech] = (skills[tech] || 0) + 0.5;
+      const regex = new RegExp(`\\b${tech.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')}\\b`, 'i');
+      if (regex.test(content)) {
+        repoTechs.add(tech);
       }
+    });
+    
+    // Add to global skills
+    repoTechs.forEach(tech => {
+      skills[tech] = (skills[tech] || 0) + 1;
     });
   });
 
   return Object.entries(skills)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 18)
-    .map(([name, count]) => ({ name, count: Math.ceil(count) }));
+    .map(([name, count]) => ({ name, count }));
 }
 
 function getPriorityFixes(repos, excludedNames = new Set()) {
