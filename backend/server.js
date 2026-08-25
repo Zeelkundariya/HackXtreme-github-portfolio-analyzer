@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import { calculateScore, analyzeShadowProfile, calculateImpactDays } from './scoreEngine.js';
 import { getAIReview, getRevivalPlans, getChatResponse } from './aiService.js';
 import { initDB, saveScore, getHistory } from './database.js';
-import { fetchUser, fetchRepos, fetchEvents, fetchTotalContributions, fetchRepoTree } from './githubService.js';
+import { fetchUser, fetchRepos, fetchEvents, fetchTotalContributions, fetchRepoTree, fetchDailyContributions } from './githubService.js';
 
 dotenv.config();
 const app = express();
@@ -36,11 +36,12 @@ app.get('/analyze/:username', async (req, res) => {
     console.log(`Analyzing ${username}...`);
 
     // 1. Fetch Data in Parallel
-    const [user, repos, events, totalLifetimeContributions] = await Promise.all([
+    const [user, repos, events, totalLifetimeContributions, dailyContributions30d] = await Promise.all([
       fetchUser(username),
       fetchRepos(username),
       fetchEvents(username),
-      fetchTotalContributions(username)
+      fetchTotalContributions(username),
+      fetchDailyContributions(username)
     ]);
 
     // 2. Calculate Score
@@ -99,7 +100,7 @@ app.get('/analyze/:username', async (req, res) => {
     // 4. Save Score to History
     saveScore(username, scoreReport.score, scoreReport.recentContributions || 0).catch(err => console.error("Failed to save score:", err));
 
-    res.json({ ...scoreReport, aiFeedback, events });
+    res.json({ ...scoreReport, aiFeedback, events, dailyContributions30d });
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: error.message });

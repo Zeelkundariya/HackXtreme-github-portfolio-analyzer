@@ -152,7 +152,7 @@ function App() {
 
           <main style={{ minHeight: '600px' }}>
             {activeTab === 'dashboard' && <ScoreCard data={data} />}
-            {activeTab === 'history' && <ScoreHistory username={data.username} lastUpdated={data.lastUpdated} events={data.events || []} totalLifetimeContributions={data.totalLifetimeContributions} />}
+            {activeTab === 'history' && <ScoreHistory username={data.username} lastUpdated={data.lastUpdated} events={data.events || []} totalLifetimeContributions={data.totalLifetimeContributions} dailyContributions={data.dailyContributions30d || []} />}
             {activeTab === 'interview' && <RecruiterChat username={data.username} context={data} />}
             {activeTab === 'xray' && <VisualMap username={data.username} repos={data.allRepos || []} />}
             {activeTab === 'gaps' && <ShadowProfile username={data.username} data={data} />}

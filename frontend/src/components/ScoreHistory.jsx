@@ -13,7 +13,7 @@ import {
 import { GraphIcon } from "@primer/octicons-react";
 import { API_BASE_URL } from "../config";
 
-const ScoreHistory = ({ username, lastUpdated, events, totalLifetimeContributions }) => {
+const ScoreHistory = ({ username, lastUpdated, events, totalLifetimeContributions, dailyContributions }) => {
     const [history, setHistory] = useState([]);
     const [loading, setLoading] = useState(true);
     const [contributionData, setContributionData] = useState([]);
@@ -55,7 +55,18 @@ const ScoreHistory = ({ username, lastUpdated, events, totalLifetimeContribution
     }, [username, lastUpdated]);
 
     useEffect(() => {
-        if (events && events.length > 0) {
+        if (dailyContributions && dailyContributions.length > 0) {
+            const result = dailyContributions.map(d => {
+                const dateObj = new Date(d.date);
+                return {
+                    date: d.date,
+                    count: d.count,
+                    daily: d.count,
+                    label: dateObj.toLocaleDateString([], { month: 'short', day: 'numeric' })
+                };
+            });
+            setContributionData(result);
+        } else if (events && events.length > 0) {
             const counts = {};
             events.forEach(event => {
                 const date = new Date(event.created_at).toLocaleDateString();
@@ -74,19 +85,18 @@ const ScoreHistory = ({ username, lastUpdated, events, totalLifetimeContribution
                 d.setDate(d.getDate() - i);
                 const dateStr = d.toLocaleDateString();
 
-                // Add today's count to the running total
                 runningTotal += (counts[dateStr] || 0);
 
                 result.push({
                     date: dateStr,
-                    count: runningTotal, // This is now the cumulative total
-                    daily: counts[dateStr] || 0, // Keep daily for tooltip if needed
+                    count: runningTotal, 
+                    daily: counts[dateStr] || 0, 
                     label: d.toLocaleDateString([], { month: 'short', day: 'numeric' })
                 });
             }
             setContributionData(result);
         }
-    }, [events]);
+    }, [events, dailyContributions]);
 
     if (loading) return null;
 
@@ -114,7 +124,7 @@ const ScoreHistory = ({ username, lastUpdated, events, totalLifetimeContribution
                     <div className="analytics-block">
                         <h4 style={{ color: 'var(--text-primary)', fontSize: '1rem', marginBottom: '20px', letterSpacing: '1px', display: 'flex', alignItems: 'center', gap: '10px' }}>
                             <div style={{ width: '4px', height: '16px', background: '#39d353', borderRadius: '2px' }}></div>
-                            CONTRIBUTION GROWTH (30D TOTAL)
+                            DAILY CONTRIBUTIONS (LAST 30 DAYS)
                         </h4>
                         <div style={{ width: '100%', height: 220, background: 'rgba(0,0,0,0.2)', padding: '24px', borderRadius: '24px', border: '1px solid var(--border-color)', boxShadow: 'inset 0 4px 20px rgba(0,0,0,0.4)' }}>
                             <ResponsiveContainer width="100%" height="100%">
@@ -160,7 +170,7 @@ const ScoreHistory = ({ username, lastUpdated, events, totalLifetimeContribution
                                     <Area
                                         type="monotone"
                                         dataKey="count"
-                                        name="Total Contributions"
+                                        name="Contributions"
                                         stroke="#39d353"
                                         strokeWidth={3}
                                         fillOpacity={1}

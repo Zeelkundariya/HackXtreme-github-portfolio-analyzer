@@ -107,6 +107,39 @@ export async function fetchRepoTree(owner, repo) {
   }
 }
 
+export async function fetchDailyContributions(username) {
+  try {
+    const resp = await fetch(`https://github.com/users/${username}/contributions`);
+    const text = await resp.text();
+    
+    const tds = [...text.matchAll(/<td[^>]*data-date="([^"]+)"[^>]*id="([^"]+)"/g)];
+    const tips = [...text.matchAll(/<tool-tip[^>]*for="([^"]+)"[^>]*>([^<]+)<\/tool-tip>/g)];
+    
+    const tipMap = {};
+    tips.forEach(m => {
+      const id = m[1];
+      const str = m[2];
+      let count = 0;
+      if (str.startsWith('No')) count = 0;
+      else count = parseInt(str.split(' ')[0], 10) || 0;
+      tipMap[id] = count;
+    });
+    
+    const dailyData = tds.map(m => {
+      return {
+        date: m[1],
+        count: tipMap[m[2]] || 0
+      };
+    });
+    
+    dailyData.sort((a, b) => a.date.localeCompare(b.date));
+    return dailyData.slice(-30);
+  } catch (err) {
+    console.error("Failed to fetch daily contributions:", err.message);
+    return [];
+  }
+}
+
 export async function fetchTotalContributions(username) {
   try {
     let total = 0;
