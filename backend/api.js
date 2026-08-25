@@ -1,10 +1,10 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { calculateScore, analyzeShadowProfile, calculateImpactDays } from './scoreEngine.js';
-import { getAIReview, getRevivalPlans, getChatResponse } from './aiService.js';
-import { initDB, saveScore, getHistory } from './database.js';
-import { fetchUser, fetchRepos, fetchEvents, fetchTotalContributions, fetchRepoTree, fetchDailyContributions } from './githubService.js';
+import { calculateScore, analyzeShadowProfile, calculateImpactDays } from './analyzer.js';
+import { getAIReview, getRevivalPlans, getChatResponse } from './ai.js';
+import { initDB, saveScore, getHistory } from './db.js';
+import { fetchUser, fetchRepos, fetchEvents, fetchTotalContributions, fetchRepoTree, fetchDailyContributions } from './github.js';
 
 dotenv.config();
 const app = express();
