@@ -54,6 +54,25 @@ export function calculateScore(user, repos, events = []) {
 
     if (hasHomepage > 0) { score += 5; strengths.push(`Live demos available (${hasHomepage} repos)`); }
     if (hasTopics / originalRepos.length > 0.5) { score += 5; } // Good discoverability
+    else redFlags.push("Low open-source discoverability (missing topics in repos)");
+
+    // Architectural Gaps based on Tech/Role
+    const hasTesting = originalRepos.some(r => r.topics?.includes('jest') || r.topics?.includes('cypress') || r.topics?.includes('testing') || r.topics?.includes('pytest') || r.topics?.includes('junit'));
+    const hasCICD = originalRepos.some(r => r.topics?.includes('actions') || r.topics?.includes('ci-cd') || (r.description && r.description.toLowerCase().includes('ci/cd')));
+    const hasDocker = originalRepos.some(r => r.language === 'Dockerfile' || r.topics?.includes('docker'));
+
+    if (!hasTesting && originalRepos.length > 5) {
+      redFlags.push("Lack of visible automated testing (e.g., Jest, Cypress, PyTest) across projects.");
+    }
+    if (!hasCICD && originalRepos.length > 8) {
+      redFlags.push("No CI/CD pipelines (GitHub Actions, etc.) detected in portfolio.");
+    }
+    if (originalRepos.some(r => r.language === 'TypeScript') === false && originalRepos.some(r => r.language === 'JavaScript')) {
+      redFlags.push("Heavy reliance on JavaScript without TypeScript adoption.");
+    }
+    if (!hasDocker && originalRepos.some(r => r.language === 'Java' || r.language === 'Go' || r.language === 'Python') && originalRepos.length > 10) {
+      redFlags.push("Missing containerization (Docker) in backend/full-stack projects.");
+    }
   }
 
   if (totalStars > 5) { score += 5; strengths.push(`Received ${totalStars} stars across repos`); }
@@ -467,19 +486,20 @@ function generateRepoFeedback(repos) {
 
 function getDemoRepos(repos) {
   return repos
-    .filter(r => !r.fork && r.homepage && r.homepage.startsWith('http'))
+    .filter(r => r.homepage && r.homepage.includes('http'))
     .map(r => {
+      const firstUrl = r.homepage.trim().split(/\s+/)[0];
       let host = "External";
-      if (r.homepage.includes("vercel")) host = "Vercel";
-      else if (r.homepage.includes("netlify")) host = "Netlify";
-      else if (r.homepage.includes("github.io")) host = "GitHub Pages";
-      else if (r.homepage.includes("heroku")) host = "Heroku";
-      else if (r.homepage.includes("onrender")) host = "Render";
+      if (firstUrl.includes("vercel")) host = "Vercel";
+      else if (firstUrl.includes("netlify")) host = "Netlify";
+      else if (firstUrl.includes("github.io")) host = "GitHub Pages";
+      else if (firstUrl.includes("heroku")) host = "Heroku";
+      else if (firstUrl.includes("onrender")) host = "Render";
 
       return {
         name: r.name,
         url: r.html_url,
-        demo: r.homepage,
+        demo: firstUrl,
         desc: r.description || "Project with a live demo.",
         host
       };
