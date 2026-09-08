@@ -1,3 +1,6 @@
+// ScoreHistory.jsx: This handles data visualization using Recharts.
+// It draws the 30-day daily contribution graph by rendering the exact HTML-scraped 
+// data we pulled from the GitHub backend scraper.
 import { useEffect, useState } from 'react';
 import {
     LineChart,

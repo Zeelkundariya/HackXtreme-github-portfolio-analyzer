@@ -1,3 +1,6 @@
+// ScoreCard.jsx: This component renders the main dashboard view.
+// It displays the final score out of 100, the AI Recruiter's markdown feedback,
+// and the grid of "Architectural Gaps" and "Live Demo" links extracted by the backend.
 import { useRef, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import {

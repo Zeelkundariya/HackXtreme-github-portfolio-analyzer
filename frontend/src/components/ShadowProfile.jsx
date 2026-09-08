@@ -1,3 +1,6 @@
+// ShadowProfile.jsx: This component analyzes behavioral data (like commit times and sizes)
+// to generate a psychological profile (e.g., "Feature Factory", "Night Owl Developer").
+// It reads between the lines of raw code to determine a developer's working style.
 import { useState, useEffect } from 'react';
 import { API_BASE_URL } from '../config';
 import {

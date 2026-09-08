@@ -1,3 +1,6 @@
+// VisualMap.jsx: This component acts as an "X-Ray" for a repository.
+// It fetches the file tree from GitHub and renders a visual, interactive directory structure
+// so recruiters can see the architectural complexity without cloning the code.
 import { useState, useEffect, useMemo, useRef } from 'react';
 import { API_BASE_URL } from '../config';
 import {

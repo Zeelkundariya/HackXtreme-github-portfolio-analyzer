@@ -1,3 +1,6 @@
+// ImpactHeatmap.jsx: This component renders the "Commit Velocity" and "Impact Logging".
+// It visually separates 'feature' commits from 'routine' updates so recruiters can
+// literally read the developer's momentum and output quality over time.
 import { useState, useEffect } from 'react';
 import { API_BASE_URL } from '../config';
 import {

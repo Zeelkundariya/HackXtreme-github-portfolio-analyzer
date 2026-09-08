@@ -1,3 +1,6 @@
+// RevivalEngine.jsx: This component takes the AI-generated "Revival Plans" from the backend
+// and renders them as actionable, gamified task cards. It helps developers turn their
+// abandoned/dead repositories into modern, interview-ready projects.
 import { useState, useEffect } from 'react';
 import { API_BASE_URL } from '../config';
 import {

@@ -1,3 +1,6 @@
+// App.jsx is the main container for the entire frontend.
+// It manages the global state (like the loading screen and the fetched user data)
+// and renders all the individual dashboard components once the data arrives from the backend.
 import { useState } from "react";
 import InputCard from "./components/InputCard";
 import ScoreCard from "./components/ScoreCard";

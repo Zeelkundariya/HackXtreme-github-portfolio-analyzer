@@ -1,3 +1,6 @@
+// RecruiterChat.jsx: This provides an interactive chat interface hooked up to the Gemini API.
+// It uses the developer's exact tech stack and repo data as context so the AI can ask
+// highly specific, tailored technical 
 import { useState, useEffect, useRef } from 'react';
 import { API_BASE_URL } from '../config';
 import {
