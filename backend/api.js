@@ -31,11 +31,11 @@ process.on('unhandledRejection', (reason, promise) => {
 });
 
 app.get('/analyze/:username', async (req, res) => {
-  try {
+  try { // Wrap the entire route in a try-catch to prevent server crashes on bad user input
     const { username } = req.params;
     console.log(`Analyzing ${username}...`);
 
-    // 1. Fetch Data in Parallel
+    // 1. Fetch Data in Parallel (Reduces wait time)
     const [user, repos, events, totalLifetimeContributions, dailyContributions30d] = await Promise.all([
       fetchUser(username),
       fetchRepos(username),
@@ -58,11 +58,12 @@ app.get('/analyze/:username', async (req, res) => {
     }, 0);
 
     scoreReport.totalLifetimeContributions = totalLifetimeContributions + recentCommits;
+    
     // 3. AI Review
     let aiFeedback = "AI review skipped (missing API key).";
 
     if (process.env.GOOGLE_API_KEY && process.env.GOOGLE_API_KEY !== 'your_google_api_key_here') {
-      try {
+      try { // Graceful error handling for the AI API so the app still works even if Gemini is down
         const repoContext = scoreReport.allRepos?.slice(0, 10).map(r =>
           `- ${r.name}: ${r.description} (${(r.size / 1024).toFixed(1)}MB, ${r.language}, ${r.stars}⭐)`
         ).join('\n');
@@ -76,6 +77,7 @@ app.get('/analyze/:username', async (req, res) => {
         `);
       } catch (aiErr) {
         console.error("AI Review failed:", aiErr.message);
+        // Fallback response if the AI API fails, preventing a blank screen on the frontend
         aiFeedback = `
 ### 🛡️ AI Recruiter Verdict: Technical Audit (High-Reliability Mode)
 
@@ -102,6 +104,7 @@ app.get('/analyze/:username', async (req, res) => {
 
     res.json({ ...scoreReport, aiFeedback, events, dailyContributions30d });
   } catch (error) {
+    // Return a clean 500 error instead of killing the Node process
     console.error(error);
     res.status(500).json({ error: error.message });
   }

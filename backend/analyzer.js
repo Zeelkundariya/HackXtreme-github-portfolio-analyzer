@@ -342,6 +342,8 @@ function calculateConsistency(events) {
 
 function calculateTechStack(repos) {
   const skills = {};
+  
+  // Whitelist to standardize tech names and prevent random words from being counted
   const techWhitelist = [
     'react', 'node', 'express', 'python', 'django', 'flask', 'aws', 'docker', 'css', 'html', 'javascript', 'typescript',
     'vue', 'angular', 'nextjs', 'tailwindcss', 'mongodb', 'postgresql', 'vite', 'ui/ux',
@@ -350,11 +352,13 @@ function calculateTechStack(repos) {
   ];
 
   repos.forEach(r => {
-    if (r.fork) return; // Only count original repos for tech stack
+    // Ignore forks to maintain data integrity (don't take credit for other people's code)
+    if (r.fork) return; 
     
+    // Use a Set so if a repo mentions "React" 3 times, it still only counts as 1 for this repo
     const repoTechs = new Set();
     
-    // 1. Primary Language
+    // 1. Primary Language Check
     if (r.language) {
       const lang = r.language.toLowerCase();
       if (!['git', 'figma', 'firebase', 'github'].includes(lang)) {
@@ -362,7 +366,7 @@ function calculateTechStack(repos) {
       }
     }
 
-    // 2. GitHub Topics
+    // 2. GitHub Topics Check
     if (r.topics) {
       r.topics.forEach(t => {
         const topic = t.toLowerCase();
@@ -375,18 +379,20 @@ function calculateTechStack(repos) {
     // 3. Smart Extraction from Name/Description
     const content = (r.name + " " + (r.description || "")).toLowerCase();
     techWhitelist.forEach(tech => {
+      // Use regex word boundaries (\b) to prevent false positives (e.g., catching 'react' but ignoring 'reactive')
       const regex = new RegExp(`\\b${tech.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')}\\b`, 'i');
       if (regex.test(content)) {
         repoTechs.add(tech);
       }
     });
     
-    // Add to global skills
+    // Update global scoreboard
     repoTechs.forEach(tech => {
       skills[tech] = (skills[tech] || 0) + 1;
     });
   });
 
+  // Sort by highest count and return top 18 for clean UI rendering
   return Object.entries(skills)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 18)

@@ -41,20 +41,27 @@ export async function fetchRepos(username) {
   }));
   const repos = res.data;
   
+  // NOTE: We process repos in batches of 10 to avoid triggering GitHub's secondary rate limits
   const batchSize = 10;
   for (let i = 0; i < repos.length; i += batchSize) {
     const batch = repos.slice(i, i + batchSize);
+    
+    // Use Promise.allSettled so one failed repo doesn't crash the entire batch
     await Promise.allSettled(batch.map(async (repo) => {
       if (repo.fork) {
         repo.total_commits = 0;
         return;
       }
       try {
+        // PERFORMANCE HACK: Request only 1 commit per page to minimize payload size
         const commitRes = await octokit.request('GET /repos/{owner}/{repo}/commits', {
           owner: repo.owner.login,
           repo: repo.name,
           per_page: 1
         });
+        
+        // Extract the exact total commit count from the 'rel="last"' pagination header
+        // This avoids fetching thousands of commits individually
         const link = commitRes.headers.link;
         if (link) {
           const match = link.match(/page=(\d+)>; rel="last"/);
@@ -106,25 +113,32 @@ export async function fetchRepoTree(owner, repo) {
     return [];
   }
 }
-
+        
+//bypass GitHub's API rate limits to get the 30-day graph
 export async function fetchDailyContributions(username) {
   try {
+    // Standard API limits events to 300, which breaks the graph for active users.
+    // Instead, we bypass the API and fetch the raw HTML of the contribution calendar.
     const resp = await fetch(`https://github.com/users/${username}/contributions`);
     const text = await resp.text();
     
+    // Parse the raw HTML using regex (faster than loading heavy libraries like Cheerio)
+    // Extract table cells (dates) and the hidden tooltips (counts)
     const tds = [...text.matchAll(/<td[^>]*data-date="([^"]+)"[^>]*id="([^"]+)"/g)];
     const tips = [...text.matchAll(/<tool-tip[^>]*for="([^"]+)"[^>]*>([^<]+)<\/tool-tip>/g)];
     
+    // Build a lookup dictionary mapping the tooltip ID to the extracted integer count
     const tipMap = {};
     tips.forEach(m => {
       const id = m[1];
-      const str = m[2];
+      const str = m[2]; // e.g., "12 contributions on October 5th"
       let count = 0;
       if (str.startsWith('No')) count = 0;
       else count = parseInt(str.split(' ')[0], 10) || 0;
       tipMap[id] = count;
     });
     
+    // Assemble the final array connecting dates to their respective counts
     const dailyData = tds.map(m => {
       return {
         date: m[1],
@@ -132,7 +146,8 @@ export async function fetchDailyContributions(username) {
       };
     });
     
-    dailyData.sort((a, b) => a.date.localeCompare(b.date));
+    // Ensure chronological order and slice the exact last 30 days
+        dailyData.sort((a, b) => a.date.localeCompare(b.date));
     return dailyData.slice(-30);
   } catch (err) {
     console.error("Failed to fetch daily contributions:", err.message);
