@@ -1,3 +1,7 @@
+// This file contains the core intelligence engine.
+// It maps the raw GitHub data into a 0-100 score, detects architectural gaps,
+// and classifies commits (feature vs routine) for the Impact Heatmap.
+
 export function calculateScore(user, repos, events = []) {
   let score = 0;
   let redFlags = [];

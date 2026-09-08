@@ -1,5 +1,8 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
+// This function handles the core "AI Recruiter Verdict".
+// It takes the compiled JSON payload (score, tech stack, gaps) from the analyzer
+// and sends it to Google Gemini to generate a professional markdown assessment.
 export async function getAIReview(prompt) {
     console.log("Initiating Gemini AI Audit...");
     if (!process.env.GOOGLE_API_KEY || process.env.GOOGLE_API_KEY === 'your_google_api_key_here' || !process.env.GOOGLE_API_KEY.startsWith('AIza')) {
@@ -8,6 +11,7 @@ export async function getAIReview(prompt) {
     }
     try {
         const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
+        // We use gemini-1.5-flash for high speed and low latency
         const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
         const result = await model.generateContent(prompt);
         const text = result.response.text();
@@ -19,6 +23,8 @@ export async function getAIReview(prompt) {
     }
 }
 
+// The Revival Engine: This identifies "dead" or abandoned repositories
+// and dynamically generates a technical roadmap to update them based on their language.
 export async function getRevivalPlans(username, repos) {
     const techMissions = {
         javascript: [
